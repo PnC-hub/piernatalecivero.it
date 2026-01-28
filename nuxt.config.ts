@@ -7,22 +7,22 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://piernatalecivero.it',
-    name: 'Piero Natale Civero',
+    name: 'Dott. Piernatale Civero - Esperto in Gnatologia, Posturologia ed Riequilibrio dell\'Occlusione',
   },
 
   app: {
     head: {
       htmlAttrs: { lang: 'it' },
-      title: 'Piero Natale Civero | Imprenditore Digitale & Software Architect',
+      title: 'Dott. Piernatale Civero - Esperto in Gnatologia, Posturologia ed Riequilibrio dell\'Occlusione',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content: 'Piero Natale Civero - Imprenditore digitale, software architect e founder di Geniusmile. Trasformo idee in prodotti digitali scalabili.'
+          content: 'Il Dott. Piernatale Civero unisce gnatologia, posturologia e biomeccanica per un approccio personalizzato che migliora la salute orale e il benessere generale.'
         },
-        { property: 'og:title', content: 'Piero Natale Civero | Imprenditore Digitale' },
-        { property: 'og:description', content: 'Imprenditore digitale, software architect e founder di Geniusmile. Trasformo idee in prodotti digitali scalabili.' },
+        { property: 'og:title', content: 'Dott. Piernatale Civero - Esperto in Gnatologia, Posturologia ed Riequilibrio dell\'Occlusione' },
+        { property: 'og:description', content: 'Il Dott. Piernatale Civero unisce gnatologia, posturologia e biomeccanica per un approccio personalizzato che migliora la salute orale e il benessere generale.' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://piernatalecivero.it' },
         { property: 'og:locale', content: 'it_IT' },
