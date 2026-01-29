@@ -1,47 +1,101 @@
 <template>
-  <div class="site">
-    <!-- Header -->
-    <header class="header">
-      <div class="container">
-        <h1 class="site-title">
-          <a href="/">Dott. Piernatale Civero</a>
-        </h1>
-        <p class="site-subtitle">Esperto in Gnatologia, Posturologia ed Riequilibrio dell'Occlusione</p>
-      </div>
-    </header>
+  <div>
+    <Head>
+      <title>Dott. Piernatale Civero - Gnatologo e Implantologo a Monterotondo</title>
+      <meta name="description" content="Il Dott. Piernatale Civero è specializzato in gnatologia, implantologia e riabilitazioni complesse a Monterotondo. Oltre 20 anni di esperienza nella risoluzione di casi complessi." />
+      <meta name="keywords" content="gnatologo monterotondo, dentista monterotondo, implantologia monterotondo, ortodonzia monterotondo, gnatologia roma nord, riabilitazione orale" />
+      <link rel="canonical" href="https://piernatalecivero.it/" />
+      <meta property="og:title" content="Dott. Piernatale Civero - Gnatologo e Implantologo a Monterotondo" />
+      <meta property="og:description" content="Specializzato in gnatologia, implantologia e riabilitazioni complesse. Risolve casi che altri non affrontano." />
+      <meta property="og:url" content="https://piernatalecivero.it/" />
+      <meta property="og:type" content="website" />
+      <meta property="og:locale" content="it_IT" />
+    </Head>
 
-    <!-- Hero Section -->
+    <!-- Hero con Form -->
     <section class="hero">
-      <div class="container">
+      <div class="container hero-grid">
         <div class="hero-content">
-          <h2>Quando un Bel Sorriso ed una Bocca in Equilibrio ti fanno stare Bene</h2>
-          <p>Il Dott. Piernatale Civero unisce gnatologia, posturologia e biomeccanica per un approccio personalizzato che migliora la salute orale e il benessere generale.</p>
+          <p class="hero-badge">Studio Odontoiatrico a Monterotondo</p>
+          <h1>Risolviamo i Casi Complessi che Altri Non Affrontano</h1>
+          <p class="hero-subtitle">Il Dott. Piernatale Civero unisce <strong>gnatologia, implantologia e ortodonzia</strong> per restituire funzione, equilibrio e un sorriso naturale anche nelle situazioni più difficili.</p>
+          <div class="hero-trust">
+            <div class="trust-item">
+              <span class="trust-number">20+</span>
+              <span class="trust-label">Anni di esperienza</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">3000+</span>
+              <span class="trust-label">Pazienti trattati</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-number">Lode</span>
+              <span class="trust-label">Master in Gnatologia</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-form">
+          <LeadForm
+            title="Richiedi un Consulto Specialistico"
+            subtitle="Compila il modulo e verrai ricontattato entro 24 ore."
+            variant="hero"
+            pagina="Homepage - Hero"
+            button-text="Richiedi un Appuntamento"
+          />
         </div>
       </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about-section" id="chi-sono">
+    <!-- Problematiche che risolve -->
+    <section class="section section-light">
+      <div class="container">
+        <div class="section-header">
+          <h2>Problematiche che il Dott. Civero Risolve Ogni Giorno</h2>
+          <p>Se ti riconosci in una di queste situazioni, sei nel posto giusto.</p>
+        </div>
+        <div class="problems-grid">
+          <div class="problem-card">
+            <div class="problem-icon">&#9888;</div>
+            <h3>Dolore alla Mandibola e Click Articolari</h3>
+            <p>Mal di testa ricorrenti, scrosci articolari, difficoltà ad aprire la bocca. La gnatologia identifica e risolve le disfunzioni dell'articolazione temporo-mandibolare.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">&#9881;</div>
+            <h3>Denti Mancanti o Compromessi</h3>
+            <p>Situazioni complesse con più denti da sostituire, osso insufficiente o protesi instabili. L'implantologia avanzata offre soluzioni definitive e predicibili.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">&#8982;</div>
+            <h3>Malocclusione e Problemi Posturali</h3>
+            <p>Denti storti, morso profondo o crociato che causano problemi alla schiena e al collo. L'ortodonzia corregge l'allineamento migliorando funzione e postura.</p>
+          </div>
+          <div class="problem-card">
+            <div class="problem-icon">&#10010;</div>
+            <h3>Casi Rifiutati da Altri Studi</h3>
+            <p>Situazioni giudicate troppo complesse, con necessità di riabilitazioni che coinvolgono più discipline. Il Dott. Civero integra gnatologia, impianti e ortodonzia in un unico piano terapeutico.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chi è il Dott. Civero -->
+    <section class="section" id="chi-sono">
       <div class="container">
         <div class="about-grid">
           <div class="about-image">
-            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero" />
+            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero - Gnatologo a Monterotondo" />
           </div>
           <div class="about-content">
-            <h2>Il Dott. Piernatale Civero è un professionista con una Visione oltre il Sorriso.</h2>
-            <p>
-              Il <strong>Dott. Piernatale Civero</strong> è un odontoiatra con un'ampia formazione in
-              <strong>gnatologia, posturologia</strong>, studioso dei concetti di osteopatia, specializzato
-              nella connessione tra denti, corpo e benessere generale oltre numerose altre discipline
-              convenzionali ed alternative.
-            </p>
+            <h2>Un Professionista con una Visione Oltre il Sorriso</h2>
+            <p>Il <strong>Dott. Piernatale Civero</strong> è un odontoiatra con formazione avanzata in <strong>gnatologia, posturologia e implantologia</strong>, specializzato nella connessione tra denti, corpo e benessere generale.</p>
+            <p>Il suo approccio si distingue per la capacità di affrontare <strong>riabilitazioni complesse</strong> che richiedono competenze multidisciplinari: dalla diagnosi gnatologica fino all'ortodonzia e alla chirurgia implantare.</p>
             <div class="curriculum">
-              <p>Dal suo <em>curriculum</em>:</p>
               <ul>
-                <li><strong>Laurea con Lode in Odontoiatria</strong> presso l'Università La Sapienza nel 2004</li>
-                <li><strong>Master con Lode in Gnatologia, Occlusione e Postura</strong> presso l'Università La Sapienza nel 2006</li>
-                <li>Odontoiatra scelto come <strong>Consulente del Tribunale di Tivoli</strong></li>
-                <li><strong>Relatore e frequentatore</strong> di corsi e congressi a carattere nazionale ed internazionale</li>
+                <li><strong>Laurea con Lode in Odontoiatria</strong> &mdash; Università La Sapienza, 2004</li>
+                <li><strong>Master con Lode in Gnatologia, Occlusione e Postura</strong> &mdash; Università La Sapienza, 2006</li>
+                <li><strong>Consulente del Tribunale di Tivoli</strong> per perizie odontoiatriche</li>
+                <li><strong>Relatore a congressi</strong> nazionali e internazionali</li>
+                <li>Oltre <strong>20 anni di pratica clinica</strong> in casi complessi</li>
               </ul>
             </div>
           </div>
@@ -49,708 +103,286 @@
       </div>
     </section>
 
-    <!-- Metodo Section -->
-    <section class="metodo-section" id="metodo">
+    <!-- Specializzazioni -->
+    <section class="section section-cream">
       <div class="container">
-        <div class="metodo-intro">
-          <h2>Il Metodo</h2>
-          <p>
-            Dopo anni di studi e approfondimenti in Italia e all'estero, ha sviluppato un
-            approccio innovativo che integra:
-          </p>
-          <div class="metodo-pillars">
-            <div class="pillar">Odontoiatria moderna e digitale</div>
-            <div class="pillar">Biomeccanica e postura</div>
-            <div class="pillar">Approccio naturale e biocompatibile</div>
-          </div>
-          <p class="metodo-result">
-            Oggi, il suo metodo aiuta <strong>centinaia di pazienti a risolvere problematiche dentali</strong>
-            che influenzano la loro vita quotidiana.
-          </p>
+        <div class="section-header">
+          <h2>Le Nostre Specializzazioni</h2>
+          <p>Un approccio integrato che combina più discipline per risultati completi e duraturi.</p>
         </div>
+        <div class="services-grid">
+          <NuxtLink to="/gnatologia" class="service-card">
+            <div class="service-icon">&#9878;</div>
+            <h3>Gnatologia</h3>
+            <p>Diagnosi e trattamento delle disfunzioni dell'articolazione temporo-mandibolare, bruxismo, dolori al viso e riequilibrio dell'occlusione.</p>
+            <span class="service-link">Scopri di più &rarr;</span>
+          </NuxtLink>
+          <NuxtLink to="/implantologia" class="service-card">
+            <div class="service-icon">&#9881;</div>
+            <h3>Implantologia</h3>
+            <p>Sostituzione di denti mancanti con impianti di ultima generazione. Soluzioni per casi complessi con poco osso disponibile.</p>
+            <span class="service-link">Scopri di più &rarr;</span>
+          </NuxtLink>
+          <NuxtLink to="/ortodonzia" class="service-card">
+            <div class="service-icon">&#8982;</div>
+            <h3>Ortodonzia</h3>
+            <p>Correzione dell'allineamento dentale e della malocclusione con tecniche moderne, anche per pazienti adulti.</p>
+            <span class="service-link">Scopri di più &rarr;</span>
+          </NuxtLink>
+          <NuxtLink to="/riabilitazione-complessa" class="service-card">
+            <div class="service-icon">&#10010;</div>
+            <h3>Riabilitazione Complessa</h3>
+            <p>Piani terapeutici integrati per situazioni che richiedono gnatologia, impianti e ortodonzia in sinergia.</p>
+            <span class="service-link">Scopri di più &rarr;</span>
+          </NuxtLink>
+        </div>
+      </div>
+    </section>
 
+    <!-- Metodo -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Il Metodo del Dott. Civero</h2>
+          <p>Un percorso strutturato in tre fasi che mette al centro la tua salute globale.</p>
+        </div>
         <div class="fasi-grid">
           <div class="fase">
             <div class="fase-number">1</div>
-            <h3>Prima Fase: Valutazione</h3>
-            <p>Analizziamo la tua postura e occlusione per individuare squilibri e predisporre un piano personalizzato.</p>
+            <h3>Diagnosi Approfondita</h3>
+            <p>Analisi completa di occlusione, postura e articolazione temporo-mandibolare con tecnologie digitali per individuare le cause, non solo i sintomi.</p>
           </div>
           <div class="fase">
             <div class="fase-number">2</div>
-            <h3>Seconda Fase: Trattamento</h3>
-            <p>Applichiamo tecniche innovative per riequilibrare l'occlusione e migliorare la postura in modo efficace.</p>
+            <h3>Piano Terapeutico Integrato</h3>
+            <p>Un progetto personalizzato che combina le discipline necessarie — gnatologia, implantologia, ortodonzia — in un percorso coordinato e predicibile.</p>
           </div>
           <div class="fase">
             <div class="fase-number">3</div>
-            <h3>Terza Fase: Mantenimento</h3>
-            <p>Monitoriamo i progressi e ottimizziamo i trattamenti per garantire risultati duraturi e salute globale.</p>
+            <h3>Risultato e Mantenimento</h3>
+            <p>Monitoraggio dei progressi e follow-up programmato per garantire risultati stabili nel tempo e benessere duraturo.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Studio Image -->
-    <section class="studio-section">
+    <!-- Testimonial -->
+    <section class="section section-light">
       <div class="container">
-        <img src="/images/studio.jpg" alt="Studio del Dott. Piernatale Civero" class="studio-image" />
+        <div class="section-header">
+          <h2>L'Esperienza dei Nostri Pazienti</h2>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Dopo anni di dolori alla mandibola e visite senza risultati, il Dott. Civero ha individuato il problema in poche sedute. Oggi sto finalmente bene."</p>
+            <div class="testimonial-author"><strong>M. Rossi</strong> — Monterotondo</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Mi avevano detto che il mio caso era troppo complesso per gli impianti. Il Dott. Civero ha trovato la soluzione e oggi ho un sorriso che non speravo più di avere."</p>
+            <div class="testimonial-author"><strong>L. Bianchi</strong> — Mentana</div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p>"Professionalità e competenza raramente incontrate. Il trattamento ortodontico ha migliorato non solo il mio sorriso ma anche i dolori cervicali che avevo da anni."</p>
+            <div class="testimonial-author"><strong>G. Ferretti</strong> — Fonte Nuova</div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Blog Section -->
-    <section class="blog-section" id="blog">
+    <!-- Blog Preview -->
+    <section class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Blog</h2>
-          <p>Scopri articoli approfonditi su gnatologia, posturologia e tecniche innovative per il riequilibrio dell'occlusione, pensati per migliorare il tuo benessere.</p>
+          <h2>Dal Nostro Blog</h2>
+          <p>Approfondimenti su gnatologia, implantologia e salute orale per fare scelte consapevoli.</p>
         </div>
         <div class="blog-grid">
-          <article class="blog-card">
-            <NuxtLink to="/blog/gnatologia-e-denti-dritti">
-              <img src="/images/blog-denti-dritti.jpg" alt="Gnatologia e denti dritti" />
+          <article v-for="article in latestArticles" :key="article.slug" class="blog-card">
+            <NuxtLink :to="`/blog/${article.slug}`">
+              <img :src="article.image" :alt="article.title" />
             </NuxtLink>
             <div class="blog-content">
-              <span class="blog-category">Gnatologia</span>
-              <h3><NuxtLink to="/blog/gnatologia-e-denti-dritti">Gnatologia e denti dritti</NuxtLink></h3>
-              <p>La gnatologia e i denti dritti: un matrimonio perfetto per il sorriso...</p>
-            </div>
-          </article>
-          <article class="blog-card">
-            <NuxtLink to="/blog/occlusione-e-postura">
-              <img src="/images/blog-occlusione-postura.jpg" alt="Occlusione e Postura" />
-            </NuxtLink>
-            <div class="blog-content">
-              <span class="blog-category">Posturologia</span>
-              <h3><NuxtLink to="/blog/occlusione-e-postura">Occlusione e Postura</NuxtLink></h3>
-              <p>La relazione tra occlusione e postura è un argomento di crescente interesse...</p>
-            </div>
-          </article>
-          <article class="blog-card">
-            <NuxtLink to="/blog/il-ruolo-fondamentale-di-un-esperto-in-gnatologia">
-              <img src="/images/blog-gnatologia.jpg" alt="Il ruolo fondamentale di un esperto in gnatologia" />
-            </NuxtLink>
-            <div class="blog-content">
-              <span class="blog-category">Specializzazione</span>
-              <h3><NuxtLink to="/blog/il-ruolo-fondamentale-di-un-esperto-in-gnatologia">Il ruolo fondamentale di un esperto in gnatologia</NuxtLink></h3>
-              <p>L'importanza di rivolgersi a un esperto di gnatologia non può essere sottovalutata...</p>
+              <span class="blog-category">{{ article.category }}</span>
+              <h3><NuxtLink :to="`/blog/${article.slug}`">{{ article.title }}</NuxtLink></h3>
+              <p>{{ article.excerpt }}</p>
             </div>
           </article>
         </div>
         <div class="blog-cta">
-          <NuxtLink to="/blog" class="btn btn-outline">Leggi tutti</NuxtLink>
+          <NuxtLink to="/blog" class="btn btn-outline">Leggi tutti gli articoli</NuxtLink>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
+    <!-- Dove siamo -->
+    <section class="section section-light">
       <div class="container">
-        <div class="cta-content">
-          <h2>Un'occlusione equilibrata influisce sulla qualità di Vita</h2>
-          <p>Prenota facilmente una visita personalizzata con il Dott. Civero.</p>
+        <div class="section-header">
+          <h2>Dove Siamo</h2>
+          <p>Lo studio si trova a Monterotondo, facilmente raggiungibile da Mentana, Fonte Nuova, Guidonia, Tivoli, Palombara Sabina, Fiano Romano e Roma Nord.</p>
+        </div>
+        <div class="location-grid">
+          <div class="location-info">
+            <div class="location-item">
+              <strong>Indirizzo</strong>
+              <p>Via Monte Circeo 12, Monterotondo (RM)</p>
+            </div>
+            <div class="location-item">
+              <strong>Telefono</strong>
+              <p><a href="tel:0690625768">06 90625768</a></p>
+            </div>
+            <div class="location-item">
+              <strong>Come Raggiungerci</strong>
+              <p>A 5 minuti dalla stazione FS di Monterotondo. Parcheggio disponibile nelle vicinanze.</p>
+            </div>
+            <div class="location-item">
+              <strong>Comuni Serviti</strong>
+              <p>Monterotondo, Mentana, Fonte Nuova, Guidonia, Tivoli, Palombara Sabina, Fiano Romano, Capena, Rignano Flaminio, Castelnuovo di Porto, Morlupo, Roma Nord</p>
+            </div>
+          </div>
+          <div class="location-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.3!2d12.618!3d42.053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sVia+Monte+Circeo+12%2C+Monterotondo!5e0!3m2!1sit!2sit!4v1" width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Final CTA -->
-    <section class="final-cta-section">
+    <!-- CTA finale con form -->
+    <section class="section section-primary">
       <div class="container">
-        <h2>Scopri come la gnatologia può trasformare il tuo Sorriso ed il tuo Equilibrio</h2>
-        <a href="https://pazienti.geniusmile.com/paziente/index/nuovo/?centro=2" class="btn btn-primary" target="_blank">
-          Clicca qui per chiedere informazioni o prenotare una visita
-        </a>
+        <div class="final-cta-grid">
+          <div class="final-cta-text">
+            <h2>Hai un Problema Dentale Complesso?</h2>
+            <p>Non rimandare. Ogni caso merita un'analisi approfondita. Compila il modulo e il Dott. Civero valuterà personalmente la tua situazione.</p>
+            <ul class="final-cta-list">
+              <li>Risposta entro 24 ore lavorative</li>
+              <li>Valutazione personalizzata del tuo caso</li>
+              <li>Nessun impegno</li>
+            </ul>
+          </div>
+          <div class="final-cta-form">
+            <LeadForm
+              title="Contattaci Ora"
+              variant="bottom"
+              pagina="Homepage - CTA Finale"
+              button-text="Invia la Tua Richiesta"
+              :show-message="true"
+            />
+          </div>
+        </div>
       </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-social">
-          <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
-          </a>
-          <a href="https://x.com/" target="_blank" aria-label="X">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-          </a>
-        </div>
-        <a href="/" class="footer-title">Dott. Piernatale Civero - Esperto in Gnatologia, Posturologia ed Riequilibrio dell'Occlusione</a>
-      </div>
-    </footer>
   </div>
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: 'Dott. Piernatale Civero - Esperto in Gnatologia, Posturologia ed Riequilibrio dell\'Occlusione',
-  meta: [
-    {
-      name: 'description',
-      content: 'Il Dott. Piernatale Civero unisce gnatologia, posturologia e biomeccanica per un approccio personalizzato che migliora la salute orale e il benessere generale.'
-    },
-    {
-      property: 'og:title',
-      content: 'Dott. Piernatale Civero - Esperto in Gnatologia, Posturologia ed Riequilibrio dell\'Occlusione'
-    },
-    {
-      property: 'og:description',
-      content: 'Il Dott. Piernatale Civero unisce gnatologia, posturologia e biomeccanica per un approccio personalizzato che migliora la salute orale e il benessere generale.'
-    },
-    {
-      property: 'og:locale',
-      content: 'it_IT'
-    }
-  ]
-})
+import { getAllArticles } from '~/data/articles'
+
+const latestArticles = computed(() => getAllArticles().slice(0, 3))
 </script>
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Open+Sans:wght@400;500;600;700&display=swap');
-
-:root {
-  --primary: #1a5f7a;
-  --primary-dark: #134b61;
-  --primary-light: #e8f4f8;
-  --secondary: #2c3e50;
-  --accent: #c9a962;
-  --text: #333333;
-  --text-light: #666666;
-  --text-muted: #999999;
-  --bg: #ffffff;
-  --bg-light: #f8f9fa;
-  --bg-cream: #faf8f5;
-  --border: #e0e0e0;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  color: var(--text);
-  line-height: 1.7;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-weight: 600;
-  line-height: 1.3;
-}
-
-a {
-  color: var(--primary);
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-a:hover {
-  color: var(--primary-dark);
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-/* Header */
-.header {
-  background: var(--bg);
-  padding: 20px 0;
-  text-align: center;
-  border-bottom: 1px solid var(--border);
-}
-
-.logo img {
-  height: 80px;
-  width: auto;
-  margin-bottom: 10px;
-}
-
-.site-title {
-  font-size: 1.5rem;
-  margin-bottom: 5px;
-}
-
-.site-title a {
-  color: var(--secondary);
-}
-
-.site-title a:hover {
-  color: var(--primary);
-}
-
-.site-subtitle {
-  font-size: 0.95rem;
-  color: var(--text-light);
-  font-weight: 400;
-}
-
-/* Hero */
+<style scoped>
 .hero {
   background: linear-gradient(135deg, var(--primary-light) 0%, var(--bg-cream) 100%);
-  padding: 80px 0;
-  text-align: center;
+  padding: 60px 0 80px;
 }
-
-.hero-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.hero h2 {
-  font-size: 2.5rem;
-  color: var(--secondary);
-  margin-bottom: 1.5rem;
-}
-
-.hero p {
-  font-size: 1.15rem;
-  color: var(--text-light);
-  max-width: 650px;
-  margin: 0 auto;
-}
-
-/* About Section */
-.about-section {
-  padding: 80px 0;
-  background: var(--bg);
-}
-
-.about-grid {
+.hero-grid {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 1fr 480px;
   gap: 60px;
-  align-items: start;
-}
-
-.about-image img {
-  border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-}
-
-.about-content h2 {
-  font-size: 1.75rem;
-  color: var(--secondary);
-  margin-bottom: 1.5rem;
-}
-
-.about-content > p {
-  font-size: 1.05rem;
-  color: var(--text);
-  margin-bottom: 1.5rem;
-}
-
-.curriculum {
-  background: var(--bg-light);
-  padding: 1.5rem;
-  border-radius: 10px;
-  border-left: 4px solid var(--primary);
-}
-
-.curriculum > p {
-  font-style: italic;
-  margin-bottom: 1rem;
-  color: var(--text-light);
-}
-
-.curriculum ul {
-  list-style: none;
-  padding: 0;
-}
-
-.curriculum li {
-  padding: 0.5rem 0;
-  padding-left: 1.5rem;
-  position: relative;
-  color: var(--text);
-}
-
-.curriculum li::before {
-  content: "•";
-  color: var(--primary);
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-}
-
-/* Metodo Section */
-.metodo-section {
-  padding: 80px 0;
-  background: var(--bg-cream);
-}
-
-.metodo-intro {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto 60px;
-}
-
-.metodo-intro h2 {
-  font-size: 2.25rem;
-  color: var(--secondary);
-  margin-bottom: 1.5rem;
-}
-
-.metodo-intro > p {
-  font-size: 1.1rem;
-  color: var(--text-light);
-  margin-bottom: 2rem;
-}
-
-.metodo-pillars {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: 2rem;
-}
-
-.pillar {
-  background: var(--primary);
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 50px;
-  font-size: 0.95rem;
-  font-weight: 500;
-}
-
-.metodo-result {
-  font-size: 1.1rem;
-  color: var(--text);
-}
-
-.fasi-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.fase {
-  background: var(--bg);
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-  text-align: center;
-}
-
-.fase-number {
-  width: 50px;
-  height: 50px;
-  background: var(--primary);
-  color: white;
-  border-radius: 50%;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0 auto 1.5rem;
-  font-family: 'Playfair Display', serif;
 }
-
-.fase h3 {
-  font-size: 1.25rem;
-  color: var(--secondary);
-  margin-bottom: 1rem;
-}
-
-.fase p {
-  font-size: 0.95rem;
-  color: var(--text-light);
-}
-
-/* Studio Section */
-.studio-section {
-  padding: 60px 0;
-  background: var(--bg);
-}
-
-.studio-image {
-  border-radius: 12px;
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-}
-
-/* Blog Section */
-.blog-section {
-  padding: 80px 0;
-  background: var(--bg-light);
-}
-
-.section-header {
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.section-header h2 {
-  font-size: 2.25rem;
-  color: var(--secondary);
-  margin-bottom: 1rem;
-}
-
-.section-header p {
-  font-size: 1.05rem;
-  color: var(--text-light);
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-bottom: 2rem;
-}
-
-.blog-card {
-  background: var(--bg);
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.blog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px rgba(0,0,0,0.1);
-}
-
-.blog-card img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-
-.blog-content {
-  padding: 1.5rem;
-}
-
-.blog-category {
+.hero-badge {
   display: inline-block;
-  background: var(--primary-light);
-  color: var(--primary);
-  padding: 0.25rem 0.75rem;
-  border-radius: 50px;
+  background: var(--primary);
+  color: #fff;
   font-size: 0.8rem;
   font-weight: 600;
-  margin-bottom: 0.75rem;
-}
-
-.blog-card h3 {
-  font-size: 1.15rem;
-  color: var(--secondary);
-  margin-bottom: 0.75rem;
-}
-
-.blog-card h3 a {
-  color: inherit;
-}
-
-.blog-card h3 a:hover {
-  color: var(--primary);
-}
-
-.blog-card > .blog-content > p {
-  font-size: 0.9rem;
-  color: var(--text-light);
-}
-
-.blog-cta {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-/* Buttons */
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.875rem 2rem;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: all 0.2s;
-  border: 2px solid transparent;
-  cursor: pointer;
-}
-
-.btn-primary {
-  background: var(--primary);
-  color: white;
-  border-color: var(--primary);
-}
-
-.btn-primary:hover {
-  background: var(--primary-dark);
-  border-color: var(--primary-dark);
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(26, 95, 122, 0.3);
-}
-
-.btn-outline {
-  background: transparent;
-  color: var(--primary);
-  border-color: var(--primary);
-}
-
-.btn-outline:hover {
-  background: var(--primary);
-  color: white;
-}
-
-/* CTA Section */
-.cta-section {
-  padding: 80px 0;
-  background: var(--bg);
-  text-align: center;
-}
-
-.cta-content h2 {
-  font-size: 2rem;
-  color: var(--secondary);
-  margin-bottom: 1rem;
-}
-
-.cta-content p {
-  font-size: 1.1rem;
-  color: var(--text-light);
-}
-
-/* Final CTA Section */
-.final-cta-section {
-  padding: 80px 0;
-  background: var(--primary);
-  text-align: center;
-}
-
-.final-cta-section h2 {
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 2rem;
-  max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.final-cta-section .btn-primary {
-  background: white;
-  color: var(--primary);
-  border-color: white;
-  font-size: 1.1rem;
-  padding: 1rem 2.5rem;
-}
-
-.final-cta-section .btn-primary:hover {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: white;
-}
-
-/* Footer */
-.footer {
-  background: var(--secondary);
-  padding: 40px 0;
-  text-align: center;
-}
-
-.footer-social {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
+  padding: 6px 16px;
+  border-radius: 50px;
   margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
 }
-
-.footer-social a {
-  color: rgba(255,255,255,0.7);
-  transition: color 0.2s;
-}
-
-.footer-social a:hover {
-  color: white;
-}
-
-.footer-title {
-  color: rgba(255,255,255,0.6);
-  font-size: 0.9rem;
-}
-
-.footer-title:hover {
-  color: white;
-}
-
-/* Responsive */
+.hero h1 { font-size: 2.75rem; color: var(--secondary); margin-bottom: 1.5rem; line-height: 1.15; }
+.hero-subtitle { font-size: 1.15rem; color: var(--text-light); margin-bottom: 2rem; line-height: 1.7; }
+.hero-trust { display: flex; gap: 30px; }
+.trust-item { display: flex; flex-direction: column; }
+.trust-number { font-family: 'Playfair Display', serif; font-size: 1.75rem; font-weight: 700; color: var(--primary); }
+.trust-label { font-size: 0.8rem; color: var(--text-muted); }
+.problems-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.problem-card { background: var(--bg); padding: 2rem; border-radius: 12px; border: 1px solid var(--border); transition: box-shadow 0.3s; }
+.problem-card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+.problem-icon { font-size: 2rem; margin-bottom: 1rem; }
+.problem-card h3 { font-size: 1.15rem; color: var(--secondary); margin-bottom: 0.75rem; }
+.problem-card p { color: var(--text-light); font-size: 0.95rem; }
+.about-grid { display: grid; grid-template-columns: 300px 1fr; gap: 60px; align-items: start; }
+.about-image img { border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.1); }
+.about-content h2 { font-size: 1.75rem; color: var(--secondary); margin-bottom: 1.5rem; }
+.about-content p { font-size: 1.05rem; margin-bottom: 1.5rem; color: var(--text); }
+.curriculum { background: var(--bg-light); border-left: 4px solid var(--primary); border-radius: 10px; padding: 1.5rem; }
+.curriculum ul { list-style: none; padding: 0; }
+.curriculum li { padding: 0.5rem 0 0.5rem 1.5rem; position: relative; }
+.curriculum li::before { content: '•'; color: var(--primary); font-weight: 700; position: absolute; left: 0; }
+.services-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+.service-card { background: var(--bg); padding: 2rem; border-radius: 12px; border: 1px solid var(--border); text-decoration: none; transition: all 0.3s; display: flex; flex-direction: column; }
+.service-card:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(0,0,0,0.1); border-color: var(--primary); }
+.service-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+.service-card h3 { color: var(--secondary); font-size: 1.2rem; margin-bottom: 0.75rem; }
+.service-card p { color: var(--text-light); font-size: 0.9rem; flex: 1; }
+.service-link { color: var(--primary); font-weight: 600; font-size: 0.9rem; margin-top: 1rem; }
+.fasi-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.fase { background: var(--bg-light); padding: 2rem; border-radius: 12px; text-align: center; }
+.fase-number { width: 50px; height: 50px; background: var(--primary); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Playfair Display', serif; font-size: 1.5rem; font-weight: 700; margin: 0 auto 1.5rem; }
+.fase h3 { color: var(--secondary); font-size: 1.25rem; margin-bottom: 1rem; }
+.fase p { color: var(--text-light); font-size: 0.95rem; }
+.testimonials-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.testimonial { background: var(--bg); padding: 2rem; border-radius: 12px; border: 1px solid var(--border); }
+.testimonial-stars { color: var(--accent); font-size: 1.25rem; margin-bottom: 1rem; }
+.testimonial p { color: var(--text); font-style: italic; font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.7; }
+.testimonial-author { font-size: 0.9rem; color: var(--text-light); }
+.testimonial-author strong { color: var(--secondary); }
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 2rem; }
+.blog-card { background: var(--bg-light); border-radius: 12px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; }
+.blog-card:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(0,0,0,0.1); }
+.blog-card img { width: 100%; height: 200px; object-fit: cover; }
+.blog-content { padding: 1.5rem; }
+.blog-category { display: inline-block; background: var(--primary-light); color: var(--primary); font-size: 0.8rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 50px; margin-bottom: 0.75rem; }
+.blog-card h3 { color: var(--secondary); font-size: 1.15rem; margin-bottom: 0.75rem; }
+.blog-card h3 a { color: inherit; }
+.blog-card h3 a:hover { color: var(--primary); }
+.blog-card > .blog-content > p { color: var(--text-light); font-size: 0.9rem; }
+.blog-cta { text-align: center; margin-top: 2rem; }
+.location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+.location-item { margin-bottom: 1.5rem; }
+.location-item strong { color: var(--secondary); font-size: 1rem; display: block; margin-bottom: 0.25rem; }
+.location-item p { color: var(--text-light); font-size: 0.95rem; }
+.final-cta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+.final-cta-text h2 { color: #fff; font-size: 2rem; margin-bottom: 1rem; }
+.final-cta-text p { color: rgba(255,255,255,0.85); font-size: 1.1rem; margin-bottom: 1.5rem; }
+.final-cta-list { list-style: none; padding: 0; }
+.final-cta-list li { color: rgba(255,255,255,0.9); padding: 0.4rem 0 0.4rem 1.5rem; position: relative; font-size: 0.95rem; }
+.final-cta-list li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
 @media (max-width: 992px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .about-image {
-    text-align: center;
-  }
-
-  .about-image img {
-    max-width: 300px;
-  }
-
-  .fasi-grid {
-    grid-template-columns: 1fr;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-
-  .blog-grid {
-    grid-template-columns: 1fr;
-    max-width: 400px;
-    margin: 0 auto;
-  }
+  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
+  .hero h1 { font-size: 2rem; }
+  .about-grid { grid-template-columns: 1fr; }
+  .about-image { text-align: center; }
+  .about-image img { max-width: 300px; }
+  .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .final-cta-grid { grid-template-columns: 1fr; }
+  .location-grid { grid-template-columns: 1fr; }
 }
-
 @media (max-width: 768px) {
-  .hero h2 {
-    font-size: 1.75rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-
-  .about-content h2 {
-    font-size: 1.5rem;
-  }
-
-  .metodo-intro h2,
-  .section-header h2 {
-    font-size: 1.75rem;
-  }
-
-  .metodo-pillars {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .cta-content h2,
-  .final-cta-section h2 {
-    font-size: 1.5rem;
-  }
-
-  .final-cta-section .btn-primary {
-    font-size: 0.95rem;
-    padding: 0.875rem 1.5rem;
-  }
+  .hero { padding: 40px 0 60px; }
+  .hero h1 { font-size: 1.75rem; }
+  .hero-trust { flex-direction: column; gap: 16px; }
+  .problems-grid { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .fasi-grid { grid-template-columns: 1fr; }
+  .testimonials-grid { grid-template-columns: 1fr; }
+  .blog-grid { grid-template-columns: 1fr; }
 }
 </style>

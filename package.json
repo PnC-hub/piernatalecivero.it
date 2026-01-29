@@ -14,6 +14,7 @@
   "license": "UNLICENSED",
   "type": "module",
   "dependencies": {
+    "nodemailer": "^7.0.13",
     "nuxt": "^4.3.0"
   }
 }
