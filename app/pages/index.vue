@@ -3,9 +3,6 @@
     <!-- Header -->
     <header class="header">
       <div class="container">
-        <a href="/" class="logo">
-          <img src="/images/logo.webp" alt="Dott. Piernatale Civero" />
-        </a>
         <h1 class="site-title">
           <a href="/">Dott. Piernatale Civero</a>
         </h1>

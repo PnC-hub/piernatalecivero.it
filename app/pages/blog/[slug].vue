@@ -3,9 +3,6 @@
     <!-- Header -->
     <header class="header">
       <div class="container">
-        <NuxtLink to="/" class="logo">
-          <img src="/images/logo.webp" alt="Dott. Piernatale Civero" />
-        </NuxtLink>
         <h1 class="site-title">
           <NuxtLink to="/">Dott. Piernatale Civero</NuxtLink>
         </h1>
