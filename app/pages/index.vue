@@ -1,12 +1,12 @@
 <template>
   <div>
     <Head>
-      <title>Dott. Piernatale Civero - Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo</title>
-      <meta name="description" content="Il Dott. Piernatale Civero è esperto in gnatologia e riabilitazioni complesse tramite l'implantologia e l'ortodonzia a Monterotondo. Oltre 20 anni di esperienza nella risoluzione di casi complessi." />
+      <title>Dott. Piernatale Civero - Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo</title>
+      <meta name="description" content="Il Dott. Piernatale Civero è esperto in gnatologia per riabilitazioni complesse tramite l'implantologia e l'ortodonzia a Monterotondo. Oltre 20 anni di esperienza nella risoluzione di casi complessi." />
       <meta name="keywords" content="gnatologo monterotondo, dentista monterotondo, implantologia monterotondo, ortodonzia monterotondo, gnatologia roma nord, riabilitazione orale" />
       <link rel="canonical" href="https://piernatalecivero.it/" />
-      <meta property="og:title" content="Dott. Piernatale Civero - Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo" />
-      <meta property="og:description" content="Esperto in gnatologia e riabilitazioni complesse tramite l'implantologia e l'ortodonzia. Risolve casi che altri non affrontano." />
+      <meta property="og:title" content="Dott. Piernatale Civero - Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo" />
+      <meta property="og:description" content="Esperto in gnatologia per riabilitazioni complesse tramite l'implantologia e l'ortodonzia. Risolve casi che altri non affrontano." />
       <meta property="og:url" content="https://piernatalecivero.it/" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="it_IT" />
@@ -83,11 +83,11 @@
       <div class="container">
         <div class="about-grid">
           <div class="about-image">
-            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero - Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo" />
+            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero - Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo" />
           </div>
           <div class="about-content">
             <h2>Un Professionista con una Visione Oltre il Sorriso</h2>
-            <p>Il <strong>Dott. Piernatale Civero</strong> è un odontoiatra <strong>esperto in gnatologia e riabilitazioni complesse tramite l'implantologia e l'ortodonzia</strong>, specializzato nella connessione tra denti, corpo e benessere generale.</p>
+            <p>Il <strong>Dott. Piernatale Civero</strong> è un odontoiatra <strong>esperto in gnatologia per riabilitazioni complesse tramite l'implantologia e l'ortodonzia</strong>, specializzato nella connessione tra denti, corpo e benessere generale.</p>
             <p>Il suo approccio si distingue per la capacità di affrontare <strong>riabilitazioni complesse</strong> che richiedono competenze multidisciplinari: dalla diagnosi gnatologica fino all'ortodonzia e alla chirurgia implantare.</p>
             <div class="curriculum">
               <ul>

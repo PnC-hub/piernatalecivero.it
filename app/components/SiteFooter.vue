@@ -4,7 +4,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h4>Dott. Piernatale Civero</h4>
-          <p>Esperto in Gnatologia e Riabilitazioni Complesse tramite l'Implantologia e l'Ortodonzia. Oltre 20 anni di esperienza nel restituire funzionalità e benessere ai pazienti.</p>
+          <p>Esperto in Gnatologia per Riabilitazioni Complesse tramite l'Implantologia e l'Ortodonzia. Oltre 20 anni di esperienza nel restituire funzionalità e benessere ai pazienti.</p>
         </div>
         <div class="footer-col">
           <h4>Specializzazioni</h4>
