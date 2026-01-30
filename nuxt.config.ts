@@ -7,25 +7,25 @@ export default defineNuxtConfig({
 
   site: {
     url: 'https://piernatalecivero.it',
-    name: 'Dott. Piernatale Civero - Gnatologo e Implantologo a Monterotondo',
+    name: 'Dott. Piernatale Civero - Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo',
   },
 
   app: {
     head: {
       htmlAttrs: { lang: 'it' },
-      title: 'Dott. Piernatale Civero - Gnatologo e Implantologo a Monterotondo',
+      title: 'Dott. Piernatale Civero - Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content: 'Il Dott. Piernatale Civero è specializzato in gnatologia, implantologia e riabilitazioni complesse a Monterotondo. Oltre 20 anni di esperienza nella risoluzione di casi complessi.'
+          content: 'Il Dott. Piernatale Civero è esperto in gnatologia e riabilitazioni complesse tramite l\'implantologia e l\'ortodonzia a Monterotondo. Oltre 20 anni di esperienza nella risoluzione di casi complessi.'
         },
         { name: 'robots', content: 'index, follow' },
         { name: 'geo.region', content: 'IT-RM' },
         { name: 'geo.placename', content: 'Monterotondo' },
-        { property: 'og:title', content: 'Dott. Piernatale Civero - Gnatologo e Implantologo a Monterotondo' },
-        { property: 'og:description', content: 'Specializzato in gnatologia, implantologia e riabilitazioni complesse. Risolve casi che altri non affrontano.' },
+        { property: 'og:title', content: 'Dott. Piernatale Civero - Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo' },
+        { property: 'og:description', content: 'Esperto in gnatologia e riabilitazioni complesse tramite l\'implantologia e l\'ortodonzia. Risolve casi che altri non affrontano.' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: 'https://piernatalecivero.it' },
         { property: 'og:locale', content: 'it_IT' },
@@ -43,7 +43,7 @@ export default defineNuxtConfig({
             '@context': 'https://schema.org',
             '@type': 'Dentist',
             name: 'Dott. Piernatale Civero',
-            description: 'Gnatologo e Implantologo specializzato in riabilitazioni complesse a Monterotondo',
+            description: 'Esperto in gnatologia e riabilitazioni complesse tramite l\'implantologia e l\'ortodonzia a Monterotondo',
             url: 'https://piernatalecivero.it',
             telephone: '+390690625768',
             address: {

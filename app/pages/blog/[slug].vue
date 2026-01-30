@@ -39,7 +39,7 @@
             <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero" />
             <div>
               <strong>Dott. Piernatale Civero</strong>
-              <p>Gnatologo e Implantologo a Monterotondo</p>
+              <p>Esperto in Gnatologia e Riabilitazioni Complesse a Monterotondo</p>
             </div>
           </div>
         </div>

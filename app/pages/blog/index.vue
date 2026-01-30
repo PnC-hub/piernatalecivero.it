@@ -2,7 +2,7 @@
   <div>
     <Head>
       <title>Blog - Dott. Piernatale Civero | Gnatologia e Implantologia a Monterotondo</title>
-      <meta name="description" content="Articoli su gnatologia, implantologia, ortodonzia e salute orale. Approfondimenti dal Dott. Piernatale Civero, gnatologo a Monterotondo." />
+      <meta name="description" content="Articoli su gnatologia, implantologia, ortodonzia e salute orale. Approfondimenti dal Dott. Piernatale Civero, esperto in gnatologia e riabilitazioni complesse a Monterotondo." />
       <link rel="canonical" href="https://piernatalecivero.it/blog" />
     </Head>
 
