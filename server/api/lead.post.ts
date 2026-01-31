@@ -19,6 +19,9 @@ export default defineEventHandler(async (event) => {
     auth: {
       user: process.env.SMTP_USER || 'noreply@piernatalecivero.it',
       pass: process.env.SMTP_PASS || ''
+    },
+    tls: {
+      rejectUnauthorized: false
     }
   })
 
