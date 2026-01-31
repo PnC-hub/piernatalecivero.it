@@ -17,7 +17,7 @@
       <div class="container hero-grid">
         <div class="hero-content">
           <p class="hero-badge">Studio Odontoiatrico a Monterotondo</p>
-          <h1>Risolviamo i Casi Complessi che Altri Non Affrontano</h1>
+          <h1>Specialisti in Riabilitazioni Orali Complesse</h1>
           <p class="hero-subtitle">Il Dott. Piernatale Civero è <strong>esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</strong>. Il riequilibrio gnatologico prima di ogni intervento garantisce risultati più duraturi nel tempo e un'estetica superiore.</p>
           <div class="hero-trust">
             <div class="trust-item">
@@ -71,8 +71,8 @@
           </div>
           <div class="problem-card">
             <div class="problem-icon">&#10010;</div>
-            <h3>Casi Rifiutati da Altri Studi</h3>
-            <p>Situazioni giudicate troppo complesse, con necessità di riabilitazioni che coinvolgono più discipline. Il Dott. Civero integra gnatologia, impianti e ortodonzia in un unico piano terapeutico.</p>
+            <h3>Casi Ritenuti Non Recuperabili</h3>
+            <p>Situazioni considerate troppo complesse, con necessità di riabilitazioni che coinvolgono più discipline. Il Dott. Civero integra gnatologia, impianti e ortodonzia in un unico piano terapeutico personalizzato.</p>
           </div>
         </div>
       </div>
@@ -207,18 +207,18 @@
         <div class="testimonials-grid">
           <div class="testimonial">
             <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Dopo anni di dolori alla mandibola e visite senza risultati, il Dott. Civero ha individuato il problema in poche sedute. Oggi sto finalmente bene."</p>
-            <div class="testimonial-author"><strong>M. Rossi</strong> — Monterotondo</div>
+            <p>"Il dottor Civero mi ha risolto il click alla bocca. Tutto lo staff è preparato e professionale."</p>
+            <div class="testimonial-author"><strong>Franca</strong> — Recensione Google</div>
           </div>
           <div class="testimonial">
             <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Mi avevano detto che il mio caso era troppo complesso per gli impianti. Il Dott. Civero ha trovato la soluzione e oggi ho un sorriso che non speravo più di avere."</p>
-            <div class="testimonial-author"><strong>L. Bianchi</strong> — Mentana</div>
+            <p>"Il Dott. Civero, grazie ai suoi studi inerenti la gnatologia, ha risolto un problema di russamento che mi affliggeva da anni."</p>
+            <div class="testimonial-author"><strong>Gianni A.</strong> — Recensione Google</div>
           </div>
           <div class="testimonial">
             <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-            <p>"Professionalità e competenza raramente incontrate. Il trattamento ortodontico ha migliorato non solo il mio sorriso ma anche i dolori cervicali che avevo da anni."</p>
-            <div class="testimonial-author"><strong>G. Ferretti</strong> — Fonte Nuova</div>
+            <p>"Stavo in una condizione molto grave e il Dott. Civero ha risolto il problema. Grazie a lui ho una vita quasi normale."</p>
+            <div class="testimonial-author"><strong>Natascia</strong> — Recensione Google</div>
           </div>
         </div>
       </div>
