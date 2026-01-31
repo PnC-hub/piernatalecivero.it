@@ -129,7 +129,7 @@
         </div>
         <div class="approach-content">
           <div class="approach-text">
-            <p>L'ortodonzia non è isolata dal resto della bocca. Una <strong>malocclusione grave può causare problemi articolari</strong>, mentre denti mancanti richiedono ortodonzia pre-implantare per preparare lo spazio ottimale.</p>
+            <p>L'ortodonzia non è isolata dal resto della bocca. Una <strong>malocclusione grave può causare problemi articolari</strong>, mentre denti mancanti richiedono ortodonzia pre-implantare per preparare lo spazio ottimale. Il <strong>riequilibrio gnatologico prima del trattamento ortodontico</strong> è fondamentale: garantisce che il risultato sia stabile nel tempo, previene le recidive e assicura un'estetica superiore grazie alla corretta posizione mandibolare.</p>
             <p>Il Dott. Civero applica un <strong>approccio integrato</strong> che valuta contemporaneamente:</p>
             <ul class="approach-list">
               <li><strong>Gnatologia</strong> - Verifica dell'articolazione temporo-mandibolare e dell'occlusione per evitare che l'ortodonzia peggiori dolori articolari o bruxismo.</li>

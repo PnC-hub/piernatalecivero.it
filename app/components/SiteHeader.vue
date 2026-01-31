@@ -5,7 +5,7 @@
         <NuxtLink to="/" class="site-title-link">
           <span class="site-title">Dott. Piernatale Civero</span>
         </NuxtLink>
-        <span class="site-subtitle-header">Gnatologo &middot; Monterotondo</span>
+        <span class="site-subtitle-header">Esperto in Gnatologia per riabilitazioni complesse</span>
       </div>
       <button class="menu-toggle" @click="menuOpen = !menuOpen" aria-label="Menu">
         <span :class="{ open: menuOpen }"></span>

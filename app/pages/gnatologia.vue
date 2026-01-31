@@ -67,6 +67,9 @@
               Solo dopo questa fase diagnostica è possibile progettare un piano terapeutico mirato
               e personalizzato.
             </p>
+            <p>
+              Ma la gnatologia non è solo cura dei disturbi mandibolari: è il <strong>fondamento di ogni riabilitazione orale di successo</strong>. Riequilibrare la bocca gnatologicamente prima di eseguire impianti dentali o trattamenti ortodontici garantisce una <strong>durata superiore dei risultati nel tempo</strong> e un'<strong>estetica più armoniosa</strong>. Quando i carichi masticatori si distribuiscono correttamente, impianti e protesi lavorano in sinergia con muscoli e articolazioni, prevenendo complicanze e fallimenti.
+            </p>
           </div>
         </div>
       </div>
@@ -145,8 +148,11 @@
             <h3>Integrazione Posturale e Follow-up</h3>
             <p>
               La mandibola è collegata alla postura globale. Il Dott. Civero valuta i rapporti
-              tra occlusione e sistema posturale, collaborando quando necessario con fisioterapisti
-              e osteopati. Follow-up periodici garantiscono stabilità nel tempo.
+              tra occlusione e sistema posturale, integrando la gnatologia come prerequisito
+              fondamentale per impianti e ortodonzia. Questo approccio garantisce che ogni
+              riabilitazione successiva abbia una base occlusale stabile, con risultati più
+              duraturi nel tempo e un'estetica superiore. Follow-up periodici garantiscono
+              stabilità nel tempo.
             </p>
           </div>
         </div>

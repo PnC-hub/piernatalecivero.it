@@ -1,12 +1,12 @@
 <template>
   <div>
     <Head>
-      <title>Dott. Piernatale Civero - Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo</title>
-      <meta name="description" content="Il Dott. Piernatale Civero è esperto in gnatologia per riabilitazioni complesse tramite l'implantologia e l'ortodonzia a Monterotondo. Oltre 20 anni di esperienza nella risoluzione di casi complessi." />
+      <title>Dott. Piernatale Civero - Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</title>
+      <meta name="description" content="Il Dott. Piernatale Civero è esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia a Monterotondo. Il riequilibrio gnatologico prima di impianti e ortodonzia garantisce risultati più duraturi e un'estetica superiore." />
       <meta name="keywords" content="gnatologo monterotondo, dentista monterotondo, implantologia monterotondo, ortodonzia monterotondo, gnatologia roma nord, riabilitazione orale" />
       <link rel="canonical" href="https://piernatalecivero.it/" />
-      <meta property="og:title" content="Dott. Piernatale Civero - Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo" />
-      <meta property="og:description" content="Esperto in gnatologia per riabilitazioni complesse tramite l'implantologia e l'ortodonzia. Risolve casi che altri non affrontano." />
+      <meta property="og:title" content="Dott. Piernatale Civero - Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia" />
+      <meta property="og:description" content="Il Dott. Piernatale Civero è esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia. Il riequilibrio gnatologico prima di impianti e ortodonzia garantisce risultati più duraturi e un'estetica superiore." />
       <meta property="og:url" content="https://piernatalecivero.it/" />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="it_IT" />
@@ -18,7 +18,7 @@
         <div class="hero-content">
           <p class="hero-badge">Studio Odontoiatrico a Monterotondo</p>
           <h1>Risolviamo i Casi Complessi che Altri Non Affrontano</h1>
-          <p class="hero-subtitle">Il Dott. Piernatale Civero unisce <strong>gnatologia, implantologia e ortodonzia</strong> per restituire funzione, equilibrio e un sorriso naturale anche nelle situazioni più difficili.</p>
+          <p class="hero-subtitle">Il Dott. Piernatale Civero è <strong>esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</strong>. Il riequilibrio gnatologico prima di ogni intervento garantisce risultati più duraturi nel tempo e un'estetica superiore.</p>
           <div class="hero-trust">
             <div class="trust-item">
               <span class="trust-number">20+</span>
@@ -83,12 +83,12 @@
       <div class="container">
         <div class="about-grid">
           <div class="about-image">
-            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero - Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo" />
+            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero - Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia" />
           </div>
           <div class="about-content">
-            <h2>Un Professionista con una Visione Oltre il Sorriso</h2>
-            <p>Il <strong>Dott. Piernatale Civero</strong> è un odontoiatra <strong>esperto in gnatologia per riabilitazioni complesse tramite l'implantologia e l'ortodonzia</strong>, specializzato nella connessione tra denti, corpo e benessere generale.</p>
-            <p>Il suo approccio si distingue per la capacità di affrontare <strong>riabilitazioni complesse</strong> che richiedono competenze multidisciplinari: dalla diagnosi gnatologica fino all'ortodonzia e alla chirurgia implantare.</p>
+            <h2>Perché il Riequilibrio Gnatologico è la Chiave del Successo</h2>
+            <p>Il <strong>Dott. Piernatale Civero</strong> è un odontoiatra <strong>esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</strong>. Il suo approccio si basa su un principio fondamentale: <strong>riequilibrare la bocca gnatologicamente prima di eseguire qualsiasi riabilitazione orale</strong>.</p>
+            <p>Questo significa che prima di inserire impianti o iniziare un trattamento ortodontico, il Dott. Civero analizza e corregge l'equilibrio dell'articolazione temporo-mandibolare, dell'occlusione e della postura. Il risultato? <strong>Impianti che durano più a lungo</strong>, protesi che lavorano in armonia con i muscoli e le articolazioni, e un'<strong>estetica superiore</strong> grazie alla corretta posizione mandibolare che definisce le proporzioni del viso.</p>
             <div class="curriculum">
               <ul>
                 <li><strong>Laurea con Lode in Odontoiatria</strong> &mdash; Università La Sapienza, 2004</li>
@@ -135,6 +135,38 @@
             <p>Piani terapeutici integrati per situazioni che richiedono gnatologia, impianti e ortodonzia in sinergia.</p>
             <span class="service-link">Scopri di più &rarr;</span>
           </NuxtLink>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vantaggi del Riequilibrio Gnatologico -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>I Vantaggi del Riequilibrio Gnatologico</h2>
+          <p>Perché riequilibrare la bocca prima di impianti e ortodonzia è fondamentale per il successo del trattamento.</p>
+        </div>
+        <div class="vantaggi-grid">
+          <div class="vantaggio-card">
+            <div class="vantaggio-icon">&#9201;</div>
+            <h3>Risultati che Durano nel Tempo</h3>
+            <p>Quando i carichi masticatori si distribuiscono correttamente grazie al riequilibrio gnatologico, gli impianti e le protesi subiscono meno stress meccanico. Questo riduce il rischio di fratture protesiche, perimplantite e fallimenti a lungo termine.</p>
+          </div>
+          <div class="vantaggio-card">
+            <div class="vantaggio-icon">&#10024;</div>
+            <h3>Estetica Superiore</h3>
+            <p>La corretta posizione mandibolare influenza le proporzioni del viso, la linea del sorriso e il profilo. Il riequilibrio gnatologico prima della riabilitazione permette di ottenere un risultato estetico armonico e naturale.</p>
+          </div>
+          <div class="vantaggio-card">
+            <div class="vantaggio-icon">&#9989;</div>
+            <h3>Prevenzione delle Complicanze</h3>
+            <p>Un'occlusione squilibrata causa usura anomala, dolori articolari e recidive ortodontiche. Correggendo prima l'equilibrio gnatologico, si prevengono le complicanze post-trattamento più comuni.</p>
+          </div>
+          <div class="vantaggio-card">
+            <div class="vantaggio-icon">&#128170;</div>
+            <h3>Funzione Masticatoria Ottimale</h3>
+            <p>Impianti e protesi inseriti su un sistema masticatorio equilibrato lavorano in sinergia con muscoli e articolazioni, garantendo una masticazione efficiente e confortevole per tutta la vita.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -365,6 +397,12 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
 .final-cta-list { list-style: none; padding: 0; }
 .final-cta-list li { color: rgba(255,255,255,0.9); padding: 0.4rem 0 0.4rem 1.5rem; position: relative; font-size: 0.95rem; }
 .final-cta-list li::before { content: '✓'; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
+.vantaggi-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.vantaggio-card { background: var(--bg-light); padding: 2rem; border-radius: 12px; border-left: 4px solid var(--accent); transition: box-shadow 0.3s; }
+.vantaggio-card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.08); }
+.vantaggio-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+.vantaggio-card h3 { font-size: 1.15rem; color: var(--secondary); margin-bottom: 0.75rem; }
+.vantaggio-card p { color: var(--text-light); font-size: 0.95rem; line-height: 1.6; }
 @media (max-width: 992px) {
   .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero h1 { font-size: 2rem; }
@@ -384,5 +422,6 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
   .fasi-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .blog-grid { grid-template-columns: 1fr; }
+  .vantaggi-grid { grid-template-columns: 1fr; }
 }
 </style>

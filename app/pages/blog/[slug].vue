@@ -39,7 +39,7 @@
             <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero" />
             <div>
               <strong>Dott. Piernatale Civero</strong>
-              <p>Esperto in Gnatologia per Riabilitazioni Complesse a Monterotondo</p>
+              <p>Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</p>
             </div>
           </div>
         </div>

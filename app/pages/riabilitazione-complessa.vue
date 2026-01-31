@@ -17,9 +17,9 @@
           <span class="hero-badge excellence">La Nostra Eccellenza</span>
           <h1 class="hero-title">Riabilitazione Orale Complessa a Monterotondo</h1>
           <p class="hero-subtitle">
-            Il Dott. Piernatale Civero tratta casi che altri professionisti hanno giudicato troppo complessi
-            o impossibili. Grazie all'integrazione di <strong>gnatologia, implantologia e ortodonzia</strong> in
-            un unico piano coordinato, anche le situazioni più difficili possono trovare una soluzione definitiva.
+            Il Dott. Piernatale Civero è <strong>esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</strong>.
+            Il suo approccio si basa su un principio fondamentale: riequilibrare la bocca gnatologicamente prima di ogni intervento.
+            Questo garantisce <strong>risultati più duraturi nel tempo</strong> e un'<strong>estetica superiore</strong>.
           </p>
           <div class="hero-highlight">
             <div class="highlight-item">
@@ -140,9 +140,11 @@
               </div>
             </div>
             <p class="highlight-box">
-              <strong>Il metodo del Dott. Civero:</strong> Integrare queste tre discipline in una
-              <strong>sequenza pianificata</strong> dove ogni fase prepara la successiva. Non tre specialisti
-              che lavorano in parallelo, ma un unico professionista che orchestra un progetto unitario.
+              <strong>Il metodo del Dott. Civero:</strong> Riequilibrare la bocca gnatologicamente prima di ogni
+              riabilitazione. Integrare gnatologia, implantologia e ortodonzia in una
+              <strong>sequenza pianificata</strong> dove il riequilibrio occlusale è il primo passo. Non tre specialisti
+              che lavorano in parallelo, ma un unico professionista che orchestra un progetto unitario, garantendo
+              <strong>risultati più duraturi</strong> e un'<strong>estetica armoniosa</strong>.
             </p>
           </div>
         </div>

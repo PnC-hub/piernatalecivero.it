@@ -4,7 +4,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h4>Dott. Piernatale Civero</h4>
-          <p>Esperto in Gnatologia per Riabilitazioni Complesse tramite l'Implantologia e l'Ortodonzia. Oltre 20 anni di esperienza nel restituire funzionalità e benessere ai pazienti.</p>
+          <p>Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia. Il riequilibrio gnatologico prima di ogni trattamento implantologico e ortodontico garantisce risultati più duraturi nel tempo e un'estetica superiore.</p>
         </div>
         <div class="footer-col">
           <h4>Specializzazioni</h4>
@@ -33,6 +33,7 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; {{ new Date().getFullYear() }} Dott. Piernatale Civero - P.IVA XXXXXXXX | Iscrizione Albo Odontoiatri RM</p>
+        <p>Direttore Sanitario: Dott. Piernatale Civero</p>
       </div>
     </div>
   </footer>

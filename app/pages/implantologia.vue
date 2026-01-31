@@ -137,7 +137,7 @@
           <div class="differentiator">
             <div class="diff-number">02</div>
             <h3>Approccio Integrato Gnatologia-Implantologia</h3>
-            <p>L'implantologia non è solo inserire viti: l'equilibrio occlusale e la biomeccanica articolare sono fondamentali per risultati duraturi. Il Dott. Civero integra gnatologia e posturologia in ogni piano implantare.</p>
+            <p>Il riequilibrio gnatologico prima dell'inserimento degli impianti è il segreto per risultati che durano nel tempo. L'equilibrio occlusale e la biomeccanica articolare sono fondamentali: impianti posizionati su un sistema masticatorio riequilibrato subiscono carichi corretti, riducendo il rischio di perimplantite e fallimenti. Il risultato è anche un'estetica superiore, perché la corretta posizione mandibolare definisce le proporzioni del viso.</p>
           </div>
           <div class="differentiator">
             <div class="diff-number">03</div>
@@ -176,6 +176,30 @@
               button-text="Richiedi un Consulto"
               :show-message="true"
             />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Riequilibrio Gnatologico Box -->
+    <section class="section section-cream">
+      <div class="container">
+        <div class="highlight-box-full">
+          <h2>Il Riequilibrio Gnatologico: la Chiave per Impianti Duraturi</h2>
+          <p>Molti pazienti si chiedono perché alcuni impianti durano decenni e altri danno problemi dopo pochi anni. La risposta, nella maggior parte dei casi, sta nell'<strong>equilibrio occlusale</strong>. Prima di inserire qualsiasi impianto, il Dott. Civero analizza e corregge eventuali squilibri nell'articolazione temporo-mandibolare e nell'occlusione.</p>
+          <div class="highlight-benefits">
+            <div class="benefit">
+              <strong>Durata Superiore</strong>
+              <span>I carichi masticatori si distribuiscono correttamente, proteggendo gli impianti dallo stress meccanico</span>
+            </div>
+            <div class="benefit">
+              <strong>Estetica Armoniosa</strong>
+              <span>La posizione mandibolare corretta migliora il profilo del viso e la linea del sorriso</span>
+            </div>
+            <div class="benefit">
+              <strong>Meno Complicanze</strong>
+              <span>Si prevengono perimplantite, fratture protesiche e dolori articolari post-intervento</span>
+            </div>
           </div>
         </div>
       </div>
@@ -592,6 +616,14 @@
   font-weight: 700;
 }
 
+.highlight-box-full { background: var(--bg); padding: 3rem; border-radius: 16px; border: 2px solid var(--accent); text-align: center; }
+.highlight-box-full h2 { color: var(--secondary); font-size: 1.75rem; margin-bottom: 1.5rem; }
+.highlight-box-full > p { color: var(--text); font-size: 1.05rem; line-height: 1.7; max-width: 800px; margin: 0 auto 2rem; }
+.highlight-benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; }
+.benefit { text-align: center; }
+.benefit strong { display: block; color: var(--primary); font-size: 1.1rem; margin-bottom: 0.5rem; }
+.benefit span { color: var(--text-light); font-size: 0.9rem; line-height: 1.5; }
+
 /* Responsive */
 @media (max-width: 992px) {
   .hero h1 {
@@ -611,6 +643,10 @@
   }
   .location-grid {
     grid-template-columns: 1fr;
+  }
+  .highlight-benefits {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 }
 
