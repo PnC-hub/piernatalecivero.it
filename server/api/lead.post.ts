@@ -13,12 +13,12 @@ export default defineEventHandler(async (event) => {
   }
 
   const transporter = nodemailer.createTransport({
-    host: 'smtps.aruba.it',
-    port: 465,
+    host: process.env.SMTP_HOST || 'localhost',
+    port: parseInt(process.env.SMTP_PORT || '465'),
     secure: true,
     auth: {
-      user: 'rec.monterotondo@smiledoc.it',
-      pass: process.env.SMTP_PASSWORD || ''
+      user: process.env.SMTP_USER || 'noreply@piernatalecivero.it',
+      pass: process.env.SMTP_PASS || ''
     }
   })
 
@@ -51,8 +51,9 @@ export default defineEventHandler(async (event) => {
 
   try {
     await transporter.sendMail({
-      from: '"Sito Dott. Civero" <rec.monterotondo@smiledoc.it>',
+      from: `"Sito Dott. Civero" <${process.env.SMTP_USER || 'noreply@piernatalecivero.it'}>`,
       to: 'rec.monterotondo@smiledoc.it',
+      cc: 'direzione@smiledoc.it',
       subject: `[piernatalecivero.it] Nuova richiesta da ${nome}`,
       html: htmlBody
     })

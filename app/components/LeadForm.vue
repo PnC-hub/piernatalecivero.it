@@ -33,7 +33,7 @@
           <span v-if="loading" class="spinner"></span>
           {{ loading ? 'Invio in corso...' : buttonText }}
         </button>
-        <p class="form-privacy">Inviando il modulo acconsenti al trattamento dei dati personali ai sensi del GDPR.</p>
+        <p class="form-privacy">Inviando il modulo acconsenti al trattamento dei dati personali ai sensi del <NuxtLink to="/privacy" style="color: var(--primary); text-decoration: underline;">GDPR</NuxtLink>.</p>
       </form>
     </div>
     <div v-else class="lead-form-success">

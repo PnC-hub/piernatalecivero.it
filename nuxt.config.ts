@@ -97,6 +97,8 @@ export default defineNuxtConfig({
     '/riabilitazione-complessa': { prerender: true },
     '/contatti': { prerender: true },
     '/blog': { prerender: true },
-    '/blog/**': { prerender: true }
+    '/blog/**': { prerender: true },
+    '/privacy': { prerender: true },
+    '/cookie-policy': { prerender: true }
   }
 })

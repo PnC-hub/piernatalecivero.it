@@ -6,6 +6,8 @@
     </main>
     <SiteFooter />
     <StickyCta />
+    <ExitPopup />
+    <WhatsAppButton />
   </div>
 </template>
 

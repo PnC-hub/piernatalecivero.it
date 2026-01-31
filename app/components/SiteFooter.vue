@@ -28,6 +28,8 @@
           <ul>
             <li><NuxtLink to="/blog">Blog</NuxtLink></li>
             <li><NuxtLink to="/contatti">Contatti</NuxtLink></li>
+            <li><NuxtLink to="/privacy">Privacy Policy</NuxtLink></li>
+            <li><NuxtLink to="/cookie-policy">Cookie Policy</NuxtLink></li>
           </ul>
         </div>
       </div>
