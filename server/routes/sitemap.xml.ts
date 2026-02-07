@@ -1,44 +1,40 @@
-export default defineEventHandler((event) => {
+export default defineEventHandler(() => {
+  const baseUrl = 'https://piernatalecivero.it'
+  const now = new Date().toISOString().split('T')[0]
+
   const pages = [
-    { url: '/', priority: '1.0', changefreq: 'weekly' },
-    { url: '/gnatologia', priority: '0.9', changefreq: 'monthly' },
-    { url: '/implantologia', priority: '0.9', changefreq: 'monthly' },
-    { url: '/ortodonzia', priority: '0.9', changefreq: 'monthly' },
-    { url: '/riabilitazione-complessa', priority: '0.9', changefreq: 'monthly' },
-    { url: '/contatti', priority: '0.8', changefreq: 'monthly' },
-    { url: '/blog', priority: '0.8', changefreq: 'weekly' },
-    { url: '/privacy', priority: '0.3', changefreq: 'yearly' },
-    { url: '/cookie-policy', priority: '0.3', changefreq: 'yearly' },
+    { loc: '/', priority: '1.0', changefreq: 'weekly' },
+    { loc: '/gnatologia', priority: '0.9', changefreq: 'monthly' },
+    { loc: '/implantologia', priority: '0.9', changefreq: 'monthly' },
+    { loc: '/ortodonzia', priority: '0.9', changefreq: 'monthly' },
+    { loc: '/riabilitazione-complessa', priority: '0.9', changefreq: 'monthly' },
+    { loc: '/contatti', priority: '0.8', changefreq: 'monthly' },
+    { loc: '/blog', priority: '0.7', changefreq: 'weekly' },
+    { loc: '/blog/gnatologia-e-denti-dritti', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/occlusione-e-postura', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/esperto-gnatologia-ruolo', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/migliorare-postura-odontoiatria', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/biomeccanica-salute-orale', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/gnatologo-monterotondo-quando-serve', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/impianti-dentali-riequilibrio-gnatologico', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/bruxismo-cause-trattamento', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/ortodonzia-adulti-gnatologia', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/blog/dolore-mandibola-atm-sintomi', priority: '0.6', changefreq: 'monthly' },
+    { loc: '/privacy', priority: '0.3', changefreq: 'yearly' },
+    { loc: '/cookie-policy', priority: '0.3', changefreq: 'yearly' },
   ]
-
-  // Blog articles
-  const blogSlugs = [
-    'gnatologia-e-denti-dritti',
-    'occlusione-e-postura',
-    'bruxismo-cause-e-rimedi',
-    'implantologia-computer-guidata',
-    'ortodonzia-adulti',
-    'dolore-mandibola-cosa-fare',
-    'riabilitazione-orale-complessa',
-    'gnatologia-e-cefalee'
-  ]
-
-  blogSlugs.forEach(slug => {
-    pages.push({ url: `/blog/${slug}`, priority: '0.7', changefreq: 'monthly' })
-  })
-
-  const today = new Date().toISOString().split('T')[0]
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${pages.map(p => `  <url>
-    <loc>https://piernatalecivero.it${p.url}</loc>
-    <lastmod>${today}</lastmod>
+    <loc>${baseUrl}${p.loc}</loc>
+    <lastmod>${now}</lastmod>
     <changefreq>${p.changefreq}</changefreq>
     <priority>${p.priority}</priority>
   </url>`).join('\n')}
 </urlset>`
 
-  setResponseHeader(event, 'content-type', 'application/xml')
-  return xml
+  return new Response(xml, {
+    headers: { 'Content-Type': 'application/xml; charset=utf-8' }
+  })
 })
