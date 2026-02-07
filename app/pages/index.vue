@@ -83,7 +83,7 @@
       <div class="container">
         <div class="about-grid">
           <div class="about-image">
-            <img src="/images/piernatale-civero.png" alt="Dott. Piernatale Civero - Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia" />
+            <img :src="'/images/dott-civero-portrait.png'" alt="Dott. Piernatale Civero - Esperto in Gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia" loading="lazy" width="300" height="400" />
           </div>
           <div class="about-content">
             <h2>Perché il Riequilibrio Gnatologico è la Chiave del Successo</h2>

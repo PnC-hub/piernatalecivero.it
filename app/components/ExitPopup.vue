@@ -66,8 +66,7 @@ async function handleSubmit() {
         pagina: 'Exit Popup'
       }
     })
-    submitted.value = true
-    setTimeout(() => { show.value = false }, 3000)
+    navigateTo('/grazie')
   } catch {
     alert('Errore. Chiamaci al 06 90625768.')
   } finally {

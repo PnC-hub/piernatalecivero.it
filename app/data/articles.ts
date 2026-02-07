@@ -1043,6 +1043,261 @@ export const articles: Article[] = [
 
       <p>Per chi vive a Monterotondo, Mentana, Fonte Nuova e nell'area di Roma Nord e soffre di dolore cervicale persistente, soprattutto se associato a sintomi mandibolari, una valutazione gnatologica potrebbe rivelare una causa fino a quel momento non identificata e aprire la strada a un trattamento efficace.</p>
     `
+  },
+  {
+    slug: 'gnatologo-monterotondo-quando-serve',
+    title: 'Gnatologo a Monterotondo: quando serve e perché è fondamentale',
+    date: '5 Febbraio 2026',
+    category: 'Gnatologia',
+    excerpt: 'Scopri quando è necessario rivolgersi a uno gnatologo a Monterotondo e perché la valutazione gnatologica è il primo passo per risolvere dolori mandibolari, click articolari e problemi di occlusione.',
+    image: '/images/blog-gnatologia.png',
+    content: `
+      <h2>Quando rivolgersi a uno gnatologo a Monterotondo</h2>
+
+      <p>Molte persone convivono per anni con sintomi che considerano normali: click alla mandibola quando si apre la bocca, dolore durante la masticazione, cefalee ricorrenti o tensione ai muscoli del viso. In realtà, questi segnali indicano spesso un disturbo dell'apparato stomatognatico che richiede l'intervento di uno <a href="/gnatologia">gnatologo</a>, lo specialista in grado di diagnosticare e trattare le disfunzioni dell'articolazione temporo-mandibolare (ATM) e dell'occlusione dentale.</p>
+
+      <p>Per chi vive a Monterotondo, Mentana, Fonte Nuova, Guidonia e nell'area di Roma Nord, avere un punto di riferimento gnatologico qualificato significa poter affrontare questi problemi con un approccio scientifico e personalizzato, evitando che si cronicizzino nel tempo.</p>
+
+      <h2>I segnali che indicano la necessità di una visita gnatologica</h2>
+
+      <p>Esistono diversi sintomi che dovrebbero indurre a prenotare una valutazione gnatologica:</p>
+
+      <ul>
+        <li>Dolore o affaticamento ai muscoli masticatori, soprattutto al risveglio</li>
+        <li>Click, scrosci o blocchi dell'articolazione mandibolare</li>
+        <li>Cefalee ricorrenti localizzate nella zona temporale o frontale</li>
+        <li>Dolore all'orecchio non legato a patologie otorinolaringoiatriche</li>
+        <li>Difficoltà o dolore durante l'apertura della bocca</li>
+        <li>Usura anomala dei denti, fratture frequenti o sensibilità dentale diffusa</li>
+        <li>Russamento e disturbi del sonno associati a tensione mandibolare</li>
+      </ul>
+
+      <p>Spesso questi sintomi vengono trattati singolarmente con antidolorifici o trattamenti locali, senza individuare la causa sottostante. Lo gnatologo, invece, esegue un'analisi completa del sistema masticatorio per risalire all'origine del problema.</p>
+
+      <h2>Perché la gnatologia è il fondamento di ogni riabilitazione orale</h2>
+
+      <p>Nel nostro approccio clinico, la valutazione gnatologica precede qualsiasi intervento di <a href="/implantologia">implantologia</a> o <a href="/ortodonzia">ortodonzia</a>. Il principio è semplice: prima di ricostruire o riallineare i denti, è necessario che l'articolazione mandibolare e l'occlusione siano in equilibrio. Intervenire su un sistema sbilanciato significa compromettere la durata e la stabilità del risultato.</p>
+
+      <p>Questo approccio integrato, basato sul principio "prima riequilibrare, poi riabilitare", permette di ottenere risultati più duraturi e di prevenire complicanze a lungo termine. Nei <a href="/riabilitazione-complessa">casi complessi</a>, dove coesistono problemi articolari, occlusali e protesici, la gnatologia diventa il punto di partenza imprescindibile per pianificare il trattamento corretto.</p>
+
+      <h2>Come si svolge la visita gnatologica</h2>
+
+      <p>La visita gnatologica comprende l'esame clinico dei muscoli masticatori, la palpazione dell'ATM, la valutazione dei movimenti mandibolari e l'analisi dell'occlusione. Quando necessario, vengono eseguiti esami strumentali come la kinesiografia mandibolare o la risonanza magnetica dell'ATM.</p>
+
+      <p>Sulla base della diagnosi, viene formulato un piano terapeutico che può prevedere l'utilizzo di un bite personalizzato, la fisioterapia mandibolare, la rieducazione posturale o, nei casi più complessi, un percorso riabilitativo integrato con ortodonzia e implantologia.</p>
+
+      <p>Se vivi a Monterotondo, Palombara Sabina, Guidonia o nelle zone limitrofe di Roma Nord e riconosci uno o più dei sintomi descritti, una valutazione gnatologica può rappresentare il primo passo verso la risoluzione di un problema che, se trascurato, tende a peggiorare progressivamente.</p>
+    `
+  },
+  {
+    slug: 'impianti-dentali-riequilibrio-gnatologico',
+    title: 'Impianti dentali e riequilibrio gnatologico: perché è essenziale',
+    date: '5 Febbraio 2026',
+    category: 'Implantologia',
+    excerpt: 'Il riequilibrio gnatologico prima dell\'implantologia garantisce impianti più stabili e duraturi. Ecco perché ogni intervento implantare dovrebbe partire da una valutazione dell\'occlusione.',
+    image: '/images/blog-implantologia.png',
+    content: `
+      <h2>Il legame tra gnatologia e implantologia</h2>
+
+      <p>Quando si perde uno o più denti, la soluzione implantare rappresenta oggi il trattamento più affidabile per ripristinare funzione ed estetica. Tuttavia, inserire un impianto dentale in un sistema masticatorio non equilibrato significa esporre la riabilitazione a rischi evitabili: sovraccarico occlusale, usura precoce della protesi, dolore articolare e, nei casi più gravi, fallimento implantare.</p>
+
+      <p>È per questo che nel nostro studio a Monterotondo ogni percorso di <a href="/implantologia">implantologia</a> inizia con una valutazione <a href="/gnatologia">gnatologica</a> approfondita. Il principio è chiaro: prima si riequilibra il sistema, poi si procede con la riabilitazione implantare.</p>
+
+      <h2>Cosa succede quando si inseriscono impianti senza valutare l'occlusione</h2>
+
+      <p>L'impianto dentale, a differenza del dente naturale, è anchilosato nell'osso: non possiede il legamento parodontale che agisce da ammortizzatore durante la masticazione. Questo significa che le forze occlusali si scaricano direttamente sull'osso peri-implantare. Se l'occlusione non è equilibrata, alcune zone subiscono un carico eccessivo con conseguenze potenzialmente serie:</p>
+
+      <ul>
+        <li>Riassorbimento osseo peri-implantare accelerato</li>
+        <li>Fratture delle componenti protesiche (viti, abutment, corone)</li>
+        <li>Dolore persistente nella zona dell'impianto</li>
+        <li>Insorgenza o peggioramento di disfunzioni dell'ATM</li>
+        <li>Usura anomala dei denti naturali residui</li>
+      </ul>
+
+      <h2>Il protocollo di riequilibrio pre-implantare</h2>
+
+      <p>La valutazione gnatologica pre-implantare comprende l'analisi dell'occlusione statica e dinamica, la verifica della posizione condilare e l'esame dei muscoli masticatori. Nei pazienti che presentano segni di disfunzione temporo-mandibolare, come bruxismo, click articolari o asimmetrie di chiusura, viene prima impostato un percorso di riequilibrio che può includere:</p>
+
+      <ul>
+        <li>Bite diagnostico per decomprimere l'ATM e rilassare la muscolatura</li>
+        <li>Analisi strumentale dei movimenti mandibolari</li>
+        <li>Eventuale aggiustamento occlusale dei denti naturali residui</li>
+        <li>Pianificazione implantare in funzione dell'occlusione corretta</li>
+      </ul>
+
+      <p>Solo quando il sistema è stabile e la posizione mandibolare è verificata si procede con la chirurgia implantare, avendo la certezza che gli impianti lavoreranno in un contesto biomeccanico favorevole.</p>
+
+      <h2>Risultati più duraturi per i pazienti di Roma Nord</h2>
+
+      <p>Questo approccio integrato tra gnatologia e implantologia è particolarmente importante nei <a href="/riabilitazione-complessa">casi complessi</a>: pazienti con edentulia estesa, atrofia ossea, storia di bruxismo o precedenti riabilitazioni fallite. In queste situazioni, il riequilibrio gnatologico pre-implantare non è un optional, ma una necessità clinica.</p>
+
+      <p>Per i pazienti di Monterotondo, Mentana, Fonte Nuova, Guidonia e Palombara Sabina, questo significa poter contare su impianti progettati per durare nel tempo, inseriti in un contesto occlusale controllato e monitorato. La differenza tra un impianto che dura 5 anni e uno che dura 20 passa spesso proprio dalla qualità della valutazione gnatologica iniziale.</p>
+    `
+  },
+  {
+    slug: 'bruxismo-cause-trattamento',
+    title: 'Bruxismo: cause, conseguenze e trattamento gnatologico',
+    date: '5 Febbraio 2026',
+    category: 'Gnatologia',
+    excerpt: 'Il bruxismo è il serramento o digrignamento involontario dei denti che causa usura, dolore e disfunzioni mandibolari. Scopri come lo gnatologo può diagnosticarlo e trattarlo efficacemente.',
+    image: '/images/blog-gnatologia.png',
+    content: `
+      <h2>Cos'è il bruxismo e perché non va sottovalutato</h2>
+
+      <p>Il bruxismo è un'attività parafunzionale caratterizzata dal serramento o dal digrignamento involontario dei denti, che si manifesta prevalentemente durante il sonno ma può verificarsi anche durante il giorno. Si stima che colpisca tra il 10% e il 30% della popolazione adulta, spesso senza che il soggetto ne sia consapevole.</p>
+
+      <p>Questa condizione, apparentemente innocua, è in realtà una delle cause principali di usura dentale, fratture protesiche, dolore muscolare facciale e disfunzioni dell'articolazione temporo-mandibolare. Se non trattato, il bruxismo può compromettere seriamente la salute orale e la qualità della vita.</p>
+
+      <h2>Le cause del bruxismo</h2>
+
+      <p>Il bruxismo ha un'origine multifattoriale. Le cause principali includono:</p>
+
+      <ul>
+        <li><strong>Stress e ansia:</strong> la tensione emotiva si scarica frequentemente sulla muscolatura masticatoria</li>
+        <li><strong>Malocclusione:</strong> un contatto dentale scorretto può innescare il serramento compensatorio</li>
+        <li><strong>Disturbi del sonno:</strong> il bruxismo notturno è spesso associato ad apnee ostruttive e microrisvegli</li>
+        <li><strong>Fattori farmacologici:</strong> alcuni antidepressivi e sostanze stimolanti possono favorirlo</li>
+        <li><strong>Disfunzioni dell'ATM:</strong> alterazioni articolari preesistenti possono contribuire al bruxismo</li>
+      </ul>
+
+      <h2>Come riconoscere il bruxismo</h2>
+
+      <p>Poiché il bruxismo notturno avviene durante il sonno, spesso è il partner a segnalare il rumore del digrignamento. Tuttavia, esistono segni che lo <a href="/gnatologia">gnatologo</a> può identificare durante la visita:</p>
+
+      <ul>
+        <li>Usura delle superfici occlusali dei denti (faccette di usura)</li>
+        <li>Ipertrofia dei muscoli masseteri (visibile e palpabile)</li>
+        <li>Recessioni gengivali e abfrazioni cervicali</li>
+        <li>Dolore o rigidità alla mandibola al risveglio</li>
+        <li>Cefalee mattutine ricorrenti</li>
+        <li>Fratture dentali o protesiche inspiegabili</li>
+      </ul>
+
+      <h2>Il trattamento gnatologico del bruxismo</h2>
+
+      <p>L'approccio terapeutico al bruxismo parte dalla diagnosi gnatologica completa, che valuta l'occlusione, lo stato dell'ATM e il tono muscolare. Il trattamento prevede generalmente:</p>
+
+      <p><strong>Bite notturno personalizzato:</strong> il dispositivo occlusale realizzato su misura protegge i denti dall'usura, decomprime l'articolazione e riduce l'attività muscolare parafunzionale. È il presidio terapeutico di prima linea nella gestione del bruxismo.</p>
+
+      <p><strong>Riequilibrio occlusale:</strong> quando il bruxismo è correlato a precontatti o interferenze occlusali, la correzione dei contatti dentali anomali può ridurre significativamente l'attività bruxistica.</p>
+
+      <p><strong>Gestione dello stress:</strong> tecniche di rilassamento muscolare, esercizi di consapevolezza mandibolare e, quando indicato, supporto psicologico completano il trattamento.</p>
+
+      <h2>Bruxismo e riabilitazioni orali</h2>
+
+      <p>Il bruxismo è un fattore di rischio per qualsiasi riabilitazione protesica o implantare. Chi soffre di bruxismo e necessita di <a href="/implantologia">impianti dentali</a> o trattamenti <a href="/ortodonzia">ortodontici</a> deve assolutamente affrontare il problema prima di procedere, per non compromettere il risultato del trattamento.</p>
+
+      <p>Per i residenti di Monterotondo, Mentana, Fonte Nuova e dell'area di Roma Nord, il riconoscimento precoce del bruxismo e il suo trattamento gnatologico rappresentano un investimento sulla salute orale a lungo termine, particolarmente importante prima di affrontare <a href="/riabilitazione-complessa">riabilitazioni complesse</a>.</p>
+    `
+  },
+  {
+    slug: 'ortodonzia-adulti-gnatologia',
+    title: 'Ortodonzia negli adulti: il ruolo della gnatologia per risultati stabili',
+    date: '5 Febbraio 2026',
+    category: 'Ortodonzia',
+    excerpt: 'L\'ortodonzia negli adulti richiede una valutazione gnatologica preventiva per garantire risultati stabili. Scopri come l\'integrazione tra ortodonzia e gnatologia migliora il trattamento.',
+    image: '/images/blog-ortodonzia.png',
+    content: `
+      <h2>Ortodonzia in età adulta: non solo estetica</h2>
+
+      <p>Sempre più adulti decidono di intraprendere un trattamento <a href="/ortodonzia">ortodontico</a> per correggere malocclusioni, affollamento dentale o problemi estetici del sorriso. Tuttavia, l'ortodonzia nell'adulto presenta complessità diverse rispetto al trattamento in età evolutiva: le strutture ossee sono mature, l'articolazione temporo-mandibolare ha una storia funzionale consolidata e spesso coesistono restauri protesici, assenze dentali o segni di usura.</p>
+
+      <p>È per questo che un trattamento ortodontico efficace nell'adulto non può prescindere da una valutazione <a href="/gnatologia">gnatologica</a> preliminare. Spostare i denti senza considerare la posizione condilare, l'equilibrio muscolare e la funzione articolare significa rischiare risultati instabili o, peggio, l'insorgenza di nuovi disturbi.</p>
+
+      <h2>Perché la gnatologia è essenziale prima dell'ortodonzia</h2>
+
+      <p>In un paziente adulto, l'apparato stomatognatico ha sviluppato nel tempo meccanismi di compenso che mascherano disfunzioni sottostanti. Una malocclusione visibile può essere solo la manifestazione superficiale di un problema articolare o muscolare più profondo. La valutazione gnatologica pre-ortodontica permette di:</p>
+
+      <ul>
+        <li>Identificare disfunzioni dell'ATM non ancora sintomatiche</li>
+        <li>Valutare la posizione condilare in relazione centrica</li>
+        <li>Rilevare parafunzioni come bruxismo o serramento</li>
+        <li>Determinare se la malocclusione è di origine dentale, scheletrica o funzionale</li>
+        <li>Pianificare il movimento dentale in armonia con la funzione articolare</li>
+      </ul>
+
+      <h2>Casi complessi: quando ortodonzia e gnatologia devono collaborare</h2>
+
+      <p>Esistono situazioni cliniche in cui l'integrazione tra ortodonzia e gnatologia diventa imprescindibile:</p>
+
+      <p><strong>Morso aperto anteriore:</strong> spesso legato a una posizione mandibolare alterata o a un'interposizione linguale. La correzione ortodontica da sola rischia la recidiva se non si affronta la componente funzionale.</p>
+
+      <p><strong>Morso profondo con sintomi ATM:</strong> l'eccessiva sovrapposizione degli incisivi può comprimere l'articolazione. Il trattamento ortodontico deve aprire il morso rispettando i limiti articolari.</p>
+
+      <p><strong>Asimmetrie mandibolari funzionali:</strong> una deviazione mandibolare può dipendere da un precontatto che forza la mandibola in una posizione scorretta. La diagnosi gnatologica distingue le asimmetrie funzionali (correggibili) da quelle scheletriche.</p>
+
+      <p><strong>Riabilitazioni combinate:</strong> quando il paziente necessita sia di ortodonzia che di <a href="/implantologia">impianti dentali</a>, la pianificazione gnatologica integrata definisce prima la posizione mandibolare corretta, poi si spostano i denti e infine si posizionano gli impianti nella posizione occlusale ideale.</p>
+
+      <h2>Risultati stabili nel tempo</h2>
+
+      <p>L'obiettivo dell'ortodonzia gnatologicamente guidata non è solo allineare i denti, ma raggiungere un'occlusione funzionalmente stabile che rispetti la fisiologia articolare e muscolare. Questo approccio riduce significativamente il rischio di recidiva ortodontica e l'insorgenza di disturbi temporo-mandibolari post-trattamento.</p>
+
+      <p>Per i pazienti adulti di Monterotondo, Guidonia, Palombara Sabina e delle zone limitrofe di Roma Nord che stanno valutando un trattamento ortodontico, la raccomandazione è iniziare sempre con una valutazione gnatologica. Questo passaggio, spesso trascurato, può fare la differenza tra un risultato temporaneo e una <a href="/riabilitazione-complessa">riabilitazione stabile</a> e duratura.</p>
+    `
+  },
+  {
+    slug: 'dolore-mandibola-atm-sintomi',
+    title: 'Dolore alla mandibola e disturbi ATM: sintomi, diagnosi e cura',
+    date: '5 Febbraio 2026',
+    category: 'Gnatologia',
+    excerpt: 'Il dolore alla mandibola è spesso causato da disturbi dell\'articolazione temporo-mandibolare (ATM). Scopri i sintomi, le cause e come lo gnatologo può risolvere il problema.',
+    image: '/images/blog-gnatologia.png',
+    content: `
+      <h2>Disturbi dell'ATM: un problema diffuso e spesso misconosciuto</h2>
+
+      <p>L'articolazione temporo-mandibolare (ATM) è una delle articolazioni più complesse del corpo umano. Consente i movimenti di apertura, chiusura, lateralità e protrusione della mandibola, ed è sollecitata migliaia di volte al giorno durante la masticazione, la deglutizione e la fonazione. Quando questa articolazione non funziona correttamente, si parla di disturbi temporo-mandibolari (DTM), una condizione che colpisce fino al 25% della popolazione.</p>
+
+      <p>Nonostante la loro diffusione, i disturbi dell'ATM vengono spesso sottovalutati o mal diagnosticati, con i pazienti che rimbalzano tra otorinolaringoiatri, neurologi e ortopedici prima di approdare dallo <a href="/gnatologia">gnatologo</a>, lo specialista di riferimento per queste patologie.</p>
+
+      <h2>I sintomi dei disturbi temporo-mandibolari</h2>
+
+      <p>I DTM si manifestano con una sintomatologia varia che può coinvolgere diverse aree del distretto cranio-facciale:</p>
+
+      <ul>
+        <li><strong>Dolore alla mandibola:</strong> localizzato davanti all'orecchio, spesso accentuato dalla masticazione</li>
+        <li><strong>Click e scrosci articolari:</strong> rumori durante l'apertura o la chiusura della bocca</li>
+        <li><strong>Limitazione dell'apertura buccale:</strong> difficoltà ad aprire completamente la bocca</li>
+        <li><strong>Blocco mandibolare:</strong> episodi in cui la mandibola resta bloccata in apertura o in chiusura</li>
+        <li><strong>Dolore all'orecchio:</strong> otalgia riflessa non legata a infezioni auricolari</li>
+        <li><strong>Cefalea:</strong> dolore nella zona temporale, spesso unilaterale</li>
+        <li><strong>Acufeni:</strong> fischi o ronzii percepiti nell'orecchio</li>
+        <li><strong>Vertigini:</strong> senso di instabilità legato alla disfunzione articolare</li>
+      </ul>
+
+      <h2>Le cause dei disturbi ATM</h2>
+
+      <p>I disturbi temporo-mandibolari hanno origine multifattoriale. Le cause più frequenti includono:</p>
+
+      <p><strong>Malocclusione:</strong> un contatto dentale scorretto altera la biomeccanica articolare, costringendo i condili mandibolari in posizioni non fisiologiche. Nel tempo, questo sovraccarico danneggia il disco articolare e le superfici ossee.</p>
+
+      <p><strong>Bruxismo:</strong> il serramento e il digrignamento notturno sottopongono l'ATM a forze eccessive e prolungate, causando infiammazione e degenerazione delle strutture articolari.</p>
+
+      <p><strong>Traumi:</strong> colpi diretti alla mandibola, colpi di frusta cervicali o microtraumi ripetuti possono danneggiare l'ATM e le strutture circostanti.</p>
+
+      <p><strong>Stress:</strong> la tensione emotiva aumenta il tono dei muscoli masticatori, incrementando il carico sull'articolazione.</p>
+
+      <h2>La diagnosi gnatologica</h2>
+
+      <p>La diagnosi dei disturbi ATM richiede un esame gnatologico completo che include la palpazione muscolare e articolare, l'analisi dei movimenti mandibolari, la valutazione dell'occlusione e, quando necessario, esami strumentali come la risonanza magnetica dell'ATM o la kinesiografia computerizzata.</p>
+
+      <p>L'obiettivo diagnostico è identificare con precisione la causa del disturbo: un problema del disco articolare, una disfunzione muscolare, un'alterazione occlusale o una combinazione di questi fattori.</p>
+
+      <h2>Il trattamento dei disturbi ATM</h2>
+
+      <p>Il trattamento gnatologico dei DTM è conservativo nella maggior parte dei casi e prevede:</p>
+
+      <ul>
+        <li>Bite occlusale personalizzato per riposizionare il condilo e decomprimere l'articolazione</li>
+        <li>Fisioterapia mandibolare con esercizi di mobilizzazione e rilassamento</li>
+        <li>Correzione dei fattori occlusali attraverso aggiustamento selettivo o riabilitazione protesica</li>
+        <li>Gestione delle parafunzioni con tecniche di consapevolezza e rilassamento</li>
+      </ul>
+
+      <p>Nei casi che richiedono anche <a href="/implantologia">interventi implantari</a> o <a href="/ortodonzia">ortodontici</a>, il trattamento ATM viene sempre completato o stabilizzato prima di procedere con la <a href="/riabilitazione-complessa">riabilitazione orale</a>, secondo il principio fondamentale del riequilibrio gnatologico preventivo.</p>
+
+      <p>Se vivi a Monterotondo, Mentana, Fonte Nuova, Guidonia o nell'area di Roma Nord e soffri di dolore mandibolare, click articolari o cefalee ricorrenti, una valutazione gnatologica approfondita è il primo passo per identificare la causa e impostare il trattamento corretto.</p>
+    `
   }
 ]
 

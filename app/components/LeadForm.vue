@@ -88,7 +88,7 @@ async function handleSubmit() {
         pagina: props.pagina
       }
     })
-    submitted.value = true
+    navigateTo('/grazie')
   } catch (e) {
     alert('Si è verificato un errore. Puoi chiamarci direttamente al 06 90625768.')
   } finally {
