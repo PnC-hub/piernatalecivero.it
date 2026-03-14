@@ -251,7 +251,7 @@
             </div>
             <div class="location-item">
               <strong>Telefono</strong>
-              <p><a href="tel:0690625768">06 90625768</a></p>
+              <p><a href="tel:+390690623936">06 906 23 936</a></p>
             </div>
             <div class="location-item">
               <strong>Come Raggiungerci</strong>

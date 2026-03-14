@@ -25,7 +25,7 @@
 
         <h2>1. Titolare del Trattamento</h2>
         <p>Il Titolare del trattamento dei dati personali è il <strong>Dott. Piernatale Civero</strong>, con studio in Via Monte Circeo 12, 00015 Monterotondo (RM).<br>
-        Telefono: 06 90625768<br>
+        Telefono: 06 906 23 936<br>
         Email: info@piernatalecivero.it</p>
 
         <h2>2. Tipologie di Dati Raccolti</h2>

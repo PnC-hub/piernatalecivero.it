@@ -68,7 +68,7 @@ async function handleSubmit() {
     })
     navigateTo('/grazie')
   } catch {
-    alert('Errore. Chiamaci al 06 90625768.')
+    alert('Errore. Chiamaci al 06 906 23 936.')
   } finally {
     loading.value = false
   }

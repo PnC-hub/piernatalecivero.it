@@ -2,7 +2,7 @@
   <div class="sticky-cta" :class="{ visible: show }">
     <div class="container sticky-inner">
       <span class="sticky-text">Hai bisogno di un consulto specialistico?</span>
-      <a href="tel:0690625768" class="btn btn-outline btn-sm sticky-phone">06 90625768</a>
+      <a href="tel:+390690623936" class="btn btn-outline btn-sm sticky-phone">06 906 23 936</a>
       <NuxtLink to="/contatti" class="btn btn-primary btn-sm">Richiedi Informazioni</NuxtLink>
     </div>
   </div>

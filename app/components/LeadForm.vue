@@ -90,7 +90,7 @@ async function handleSubmit() {
     })
     navigateTo('/grazie')
   } catch (e) {
-    alert('Si è verificato un errore. Puoi chiamarci direttamente al 06 90625768.')
+    alert('Si è verificato un errore. Puoi chiamarci direttamente al 06 906 23 936.')
   } finally {
     loading.value = false
   }

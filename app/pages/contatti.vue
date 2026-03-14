@@ -45,7 +45,7 @@
                 </svg>
               </div>
               <h3>Telefono</h3>
-              <p><a href="tel:+390690625768" class="phone-link">06 90625768</a></p>
+              <p><a href="tel:+390690623936" class="phone-link">06 906 23 936</a></p>
             </div>
 
             <div class="contact-card">
@@ -122,14 +122,14 @@ useHead({
   meta: [
     {
       name: 'description',
-      content: 'Contatta lo studio del Dott. Piernatale Civero a Monterotondo. Esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia. Via Monte Circeo 12. Tel: 06 90625768.'
+      content: 'Contatta lo studio del Dott. Piernatale Civero a Monterotondo. Esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia. Via Monte Circeo 12. Tel: 06 906 23 936.'
     },
     {
       name: 'keywords',
       content: 'contatti dentista monterotondo, studio dentistico monterotondo, dentista via monte circeo monterotondo, prenota visita dentista monterotondo, gnatologia monterotondo contatti'
     },
     { property: 'og:title', content: 'Contatti - Studio Dott. Piernatale Civero Monterotondo' },
-    { property: 'og:description', content: 'Prenota una visita specialistica presso lo studio del Dott. Piernatale Civero a Monterotondo. Via Monte Circeo 12. Tel: 06 90625768' },
+    { property: 'og:description', content: 'Prenota una visita specialistica presso lo studio del Dott. Piernatale Civero a Monterotondo. Via Monte Circeo 12. Tel: 06 906 23 936' },
     { property: 'og:type', content: 'website' }
   ],
   link: [
