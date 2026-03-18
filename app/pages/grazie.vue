@@ -34,7 +34,7 @@
 
           <div class="grazie-urgente">
             <p><strong>Hai urgenza?</strong> Chiama direttamente lo studio:</p>
-            <a href="tel:+390690623936" class="btn btn-primary">06 906 23 936</a>
+            <a href="tel:0690623936" class="btn btn-primary">06 906 23 936</a>
           </div>
 
           <NuxtLink to="/" class="btn btn-outline grazie-back">Torna alla Homepage</NuxtLink>

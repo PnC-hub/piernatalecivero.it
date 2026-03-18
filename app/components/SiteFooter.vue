@@ -20,7 +20,7 @@
           <ul>
             <li>Via Monte Circeo 12</li>
             <li>Monterotondo (RM)</li>
-            <li><a href="tel:+390690623936">Tel: 06 906 23 936</a></li>
+            <li><a href="tel:0690623936">Tel: 06 906 23 936</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -34,8 +34,8 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <p>Smiledoc S.r.l. | P.IVA 15131801001 | Aut. San. n. 109 del 16/03/2016</p>
-        <p>&copy; {{ new Date().getFullYear() }} Dott. Piernatale Civero — Direttore Sanitario: Dott. Piernatale Civero | Iscrizione Albo Odontoiatri RM</p>
+        <p>&copy; {{ new Date().getFullYear() }} Dott. Piernatale Civero - P.IVA XXXXXXXX | Iscrizione Albo Odontoiatri RM</p>
+        <p>Direttore Sanitario: Dott. Piernatale Civero</p>
       </div>
     </div>
   </footer>

@@ -12,36 +12,29 @@
       <meta property="og:locale" content="it_IT" />
     </Head>
 
-    <!-- Hero con Form -->
+    <!-- Hero -->
     <section class="hero">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <p class="hero-badge">Studio Odontoiatrico a Monterotondo</p>
-          <h1>Specialisti in Riabilitazioni Orali Complesse</h1>
-          <p class="hero-subtitle">Il Dott. Piernatale Civero è <strong>esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</strong>. Il riequilibrio gnatologico prima di ogni intervento garantisce risultati più duraturi nel tempo e un'estetica superiore.</p>
-          <div class="hero-trust">
-            <div class="trust-item">
-              <span class="trust-number">20+</span>
-              <span class="trust-label">Anni di esperienza</span>
-            </div>
-            <div class="trust-item">
-              <span class="trust-number">3000+</span>
-              <span class="trust-label">Pazienti trattati</span>
-            </div>
-            <div class="trust-item">
-              <span class="trust-number">Lode</span>
-              <span class="trust-label">Master in Gnatologia</span>
-            </div>
+      <div class="container hero-center">
+        <p class="hero-badge">Studio Odontoiatrico a Monterotondo</p>
+        <h1>Specialisti in Riabilitazioni Orali Complesse</h1>
+        <p class="hero-subtitle">Il Dott. Piernatale Civero è <strong>esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia</strong>. Il riequilibrio gnatologico prima di ogni intervento garantisce risultati più duraturi nel tempo e un'estetica superiore.</p>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <span class="trust-number">20+</span>
+            <span class="trust-label">Anni di esperienza</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-number">3000+</span>
+            <span class="trust-label">Pazienti trattati</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-number">Lode</span>
+            <span class="trust-label">Master in Gnatologia</span>
           </div>
         </div>
-        <div class="hero-form">
-          <LeadForm
-            title="Richiedi un Consulto Specialistico"
-            subtitle="Compila il modulo e verrai ricontattato entro 24 ore."
-            variant="hero"
-            pagina="Homepage - Hero"
-            button-text="Richiedi un Appuntamento"
-          />
+        <div class="hero-cta">
+          <a href="#contattaci" class="btn btn-primary btn-hero">Richiedi un Consulto</a>
+          <a href="tel:0690623936" class="btn btn-outline btn-hero">&#128222; 06 906 23 936</a>
         </div>
       </div>
     </section>
@@ -224,31 +217,6 @@
       </div>
     </section>
 
-    <!-- Blog Preview -->
-    <section class="section">
-      <div class="container">
-        <div class="section-header">
-          <h2>Dal Nostro Blog</h2>
-          <p>Approfondimenti su gnatologia, implantologia e salute orale per fare scelte consapevoli.</p>
-        </div>
-        <div class="blog-grid">
-          <article v-for="article in latestArticles" :key="article.slug" class="blog-card">
-            <NuxtLink :to="`/blog/${article.slug}`">
-              <img :src="article.image" :alt="article.title" />
-            </NuxtLink>
-            <div class="blog-content">
-              <span class="blog-category">{{ article.category }}</span>
-              <h3><NuxtLink :to="`/blog/${article.slug}`">{{ article.title }}</NuxtLink></h3>
-              <p>{{ article.excerpt }}</p>
-            </div>
-          </article>
-        </div>
-        <div class="blog-cta">
-          <NuxtLink to="/blog" class="btn btn-outline">Leggi tutti gli articoli</NuxtLink>
-        </div>
-      </div>
-    </section>
-
     <!-- Dove siamo -->
     <section class="section section-light">
       <div class="container">
@@ -264,7 +232,7 @@
             </div>
             <div class="location-item">
               <strong>Telefono</strong>
-              <p><a href="tel:+390690623936">06 906 23 936</a></p>
+              <p><a href="tel:0690623936">06 906 23 936</a></p>
             </div>
             <div class="location-item">
               <strong>Come Raggiungerci</strong>
@@ -283,7 +251,7 @@
     </section>
 
     <!-- CTA finale con form -->
-    <section class="section section-primary">
+    <section id="contattaci" class="section section-primary">
       <div class="container">
         <div class="final-cta-grid">
           <div class="final-cta-text">
@@ -311,9 +279,6 @@
 </template>
 
 <script setup lang="ts">
-import { getAllArticles } from '~/data/articles'
-
-const latestArticles = computed(() => getAllArticles().slice(0, 3))
 </script>
 
 <style scoped>
@@ -321,11 +286,21 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
   background: linear-gradient(135deg, var(--primary-light) 0%, var(--bg-cream) 100%);
   padding: 60px 0 80px;
 }
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 480px;
-  gap: 60px;
-  align-items: center;
+.hero-center {
+  max-width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-cta {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+.btn-hero {
+  padding: 16px 36px;
+  font-size: 1.05rem;
 }
 .hero-badge {
   display: inline-block;
@@ -340,7 +315,7 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
 }
 .hero h1 { font-size: 2.75rem; color: var(--secondary); margin-bottom: 1.5rem; line-height: 1.15; }
 .hero-subtitle { font-size: 1.15rem; color: var(--text-light); margin-bottom: 2rem; line-height: 1.7; }
-.hero-trust { display: flex; gap: 30px; }
+.hero-trust { display: flex; gap: 30px; justify-content: center; }
 .trust-item { display: flex; flex-direction: column; }
 .trust-number { font-family: 'Playfair Display', serif; font-size: 1.75rem; font-weight: 700; color: var(--primary); }
 .trust-label { font-size: 0.8rem; color: var(--text-muted); }
@@ -376,17 +351,6 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
 .testimonial p { color: var(--text); font-style: italic; font-size: 0.95rem; margin-bottom: 1rem; line-height: 1.7; }
 .testimonial-author { font-size: 0.9rem; color: var(--text-light); }
 .testimonial-author strong { color: var(--secondary); }
-.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 2rem; }
-.blog-card { background: var(--bg-light); border-radius: 12px; overflow: hidden; transition: transform 0.3s, box-shadow 0.3s; }
-.blog-card:hover { transform: translateY(-5px); box-shadow: 0 15px 40px rgba(0,0,0,0.1); }
-.blog-card img { width: 100%; height: 200px; object-fit: cover; }
-.blog-content { padding: 1.5rem; }
-.blog-category { display: inline-block; background: var(--primary-light); color: var(--primary); font-size: 0.8rem; font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 50px; margin-bottom: 0.75rem; }
-.blog-card h3 { color: var(--secondary); font-size: 1.15rem; margin-bottom: 0.75rem; }
-.blog-card h3 a { color: inherit; }
-.blog-card h3 a:hover { color: var(--primary); }
-.blog-card > .blog-content > p { color: var(--text-light); font-size: 0.9rem; }
-.blog-cta { text-align: center; margin-top: 2rem; }
 .location-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
 .location-item { margin-bottom: 1.5rem; }
 .location-item strong { color: var(--secondary); font-size: 1rem; display: block; margin-bottom: 0.25rem; }
@@ -404,7 +368,6 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
 .vantaggio-card h3 { font-size: 1.15rem; color: var(--secondary); margin-bottom: 0.75rem; }
 .vantaggio-card p { color: var(--text-light); font-size: 0.95rem; line-height: 1.6; }
 @media (max-width: 992px) {
-  .hero-grid { grid-template-columns: 1fr; gap: 40px; }
   .hero h1 { font-size: 2rem; }
   .about-grid { grid-template-columns: 1fr; }
   .about-image { text-align: center; }
@@ -421,7 +384,6 @@ const latestArticles = computed(() => getAllArticles().slice(0, 3))
   .services-grid { grid-template-columns: 1fr; }
   .fasi-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
-  .blog-grid { grid-template-columns: 1fr; }
   .vantaggi-grid { grid-template-columns: 1fr; }
 }
 </style>

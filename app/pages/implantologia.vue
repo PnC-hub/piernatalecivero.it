@@ -153,33 +153,6 @@
       </div>
     </section>
 
-    <!-- LeadForm inline -->
-    <section class="section section-light">
-      <div class="container">
-        <div class="form-section">
-          <div class="form-intro">
-            <h2>Hai Bisogno di Impianti Dentali?</h2>
-            <p>Compila il modulo e verrai ricontattato per una valutazione specialistica personalizzata. Il Dott. Civero analizzerà il tuo caso e ti proporrà la soluzione implantare più adatta.</p>
-            <ul class="form-benefits">
-              <li>Valutazione approfondita con diagnostica 3D</li>
-              <li>Piano terapeutico personalizzato</li>
-              <li>Risposta entro 24 ore lavorative</li>
-            </ul>
-          </div>
-          <div class="form-container">
-            <LeadForm
-              title="Richiedi una Valutazione"
-              subtitle="Compila il modulo per essere ricontattato"
-              variant="inline"
-              pagina="Implantologia"
-              servizio="Implantologia"
-              button-text="Richiedi un Consulto"
-              :show-message="true"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Riequilibrio Gnatologico Box -->
     <section class="section section-cream">
@@ -251,7 +224,7 @@
             </div>
             <div class="location-item">
               <strong>Telefono</strong>
-              <p><a href="tel:+390690623936">06 906 23 936</a></p>
+              <p><a href="tel:0690623936">06 906 23 936</a></p>
             </div>
             <div class="location-item">
               <strong>Come Raggiungerci</strong>
@@ -269,33 +242,6 @@
       </div>
     </section>
 
-    <!-- CTA finale con form -->
-    <section class="section section-primary">
-      <div class="container">
-        <div class="final-cta-grid">
-          <div class="final-cta-text">
-            <h2>Vuoi Sostituire i Tuoi Denti Mancanti con una Soluzione Definitiva?</h2>
-            <p>Non rimandare. Anche i casi più complessi meritano una valutazione specialistica. Compila il modulo e il Dott. Civero studierà personalmente la soluzione implantare più adatta a te.</p>
-            <ul class="final-cta-list">
-              <li>Risposta entro 24 ore lavorative</li>
-              <li>Valutazione con diagnostica 3D</li>
-              <li>Piano implantare personalizzato</li>
-              <li>Nessun impegno</li>
-            </ul>
-          </div>
-          <div class="final-cta-form">
-            <LeadForm
-              title="Richiedi una Valutazione Implantologica"
-              variant="bottom"
-              pagina="Implantologia - CTA Finale"
-              servizio="Implantologia"
-              button-text="Invia la Tua Richiesta"
-              :show-message="true"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
   </div>
 </template>
 

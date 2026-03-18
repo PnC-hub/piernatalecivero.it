@@ -85,7 +85,7 @@ async function handleSubmit() {
       method: 'POST',
       body: {
         ...form,
-        pagina: props.pagina
+        pagina: typeof window !== 'undefined' ? window.location.href : props.pagina
       }
     })
     navigateTo('/grazie')

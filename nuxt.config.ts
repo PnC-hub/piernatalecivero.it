@@ -54,7 +54,7 @@ export default defineNuxtConfig({
             name: 'Dott. Piernatale Civero',
             description: 'Esperto in gnatologia per riabilitazioni di casi complessi di implantologia e ortodonzia a Monterotondo. Il riequilibrio gnatologico prima di ogni trattamento implantologico e ortodontico garantisce risultati più duraturi nel tempo e un\'estetica superiore.',
             url: 'https://piernatalecivero.it',
-            telephone: '+390690623936',
+            telephone: '+390690625768',
             image: 'https://piernatalecivero.it/images/dott-civero-portrait.png',
             address: {
               '@type': 'PostalAddress',
@@ -113,8 +113,8 @@ export default defineNuxtConfig({
     '/riabilitazione-complessa': { prerender: true },
     '/contatti': { prerender: true },
     '/grazie': { prerender: true },
-    '/blog': { prerender: true },
-    '/blog/**': { prerender: true },
+    '/blog': { redirect: '/' },
+    '/blog/**': { redirect: '/' },
     '/privacy': { prerender: true },
     '/cookie-policy': { prerender: true }
   }
